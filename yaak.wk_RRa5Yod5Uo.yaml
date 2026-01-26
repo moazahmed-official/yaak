@@ -1,0 +1,15 @@
+type: workspace
+model: workspace
+id: wk_RRa5Yod5Uo
+createdAt: 2026-01-26T23:36:27.239810100
+updatedAt: 2026-01-26T23:36:27.239810600
+authentication: {}
+authenticationType: null
+description: ''
+headers: []
+name: 3jlcom
+encryptionKeyChallenge: null
+settingValidateCertificates: true
+settingFollowRedirects: true
+settingRequestTimeout: 0
+settingDnsOverrides: []
