@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_9MhNabdZab
+createdAt: 2026-01-27T15:46:54.613635300
+updatedAt: 2026-01-27T16:39:25.960905600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_7DSumHGD3i
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "phone":"+1234567890",
+        "code":"064720"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: PUT
+name: Verify User Account OTP
+sortPriority: 1000.0
+url: http://localhost:8000/api/v1/auth/verify
+urlParameters: []

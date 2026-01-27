@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_L2zYNRtkZx
 createdAt: 2026-01-27T01:41:36.591509700
-updatedAt: 2026-01-27T01:42:09.396565200
+updatedAt: 2026-01-27T16:39:20.876356500
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_ZG9HJYAbHN
 authentication: {}
@@ -35,6 +35,6 @@ headers:
   id: null
 method: PUT
 name: Update User Data (user)
-sortPriority: 0.0
+sortPriority: 666.6666666666666
 url: http://localhost:8000/api/v1/users/5
 urlParameters: []

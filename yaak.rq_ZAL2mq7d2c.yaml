@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_ZAL2mq7d2c
 createdAt: 2026-01-27T01:43:50.913724700
-updatedAt: 2026-01-27T01:44:47.418129900
+updatedAt: 2026-01-27T15:55:20.196381700
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_RYVDfgGhKH
+folderId: fl_hXhuavtRHr
 authentication: {}
 authenticationType: null
 body: {}
@@ -26,5 +26,5 @@ headers:
 method: DELETE
 name: Delete User
 sortPriority: 0.0
-url: http://localhost:8000/api/v1/users/6
+url: http://localhost:8000/api/v1/users/7
 urlParameters: []

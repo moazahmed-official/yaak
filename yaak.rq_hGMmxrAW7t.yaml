@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_hGMmxrAW7t
 createdAt: 2026-01-27T01:46:27.297656
-updatedAt: 2026-01-27T02:10:26.888788200
+updatedAt: 2026-01-27T15:22:43.501194600
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_RYVDfgGhKH
+folderId: fl_iVYqNGJqYy
 authentication: {}
 authenticationType: null
 body:
@@ -33,6 +33,6 @@ headers:
   id: 6PmGnFccrh
 method: POST
 name: Assign role to the user
-sortPriority: 0.001
+sortPriority: 1000.0
 url: http://localhost:8000/api/v1/users/5/roles
 urlParameters: []

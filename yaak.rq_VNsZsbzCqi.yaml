@@ -1,0 +1,33 @@
+type: http_request
+model: http_request
+id: rq_VNsZsbzCqi
+createdAt: 2026-01-27T16:11:33.609643300
+updatedAt: 2026-01-27T16:39:25.951625700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_7DSumHGD3i
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "phone":"+1234567890",
+        "new_password":"newpassword",
+        "new_password_confirmation":"newpassword",
+        "code":"408031"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: PUT
+name: Reset Password
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/auth/password/reset
+urlParameters: []

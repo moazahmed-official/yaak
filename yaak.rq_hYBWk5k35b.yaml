@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_hYBWk5k35b
 createdAt: 2026-01-26T23:46:07.096852
-updatedAt: 2026-01-27T01:43:35.181153200
+updatedAt: 2026-01-27T15:22:26.430364900
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_RYVDfgGhKH
+folderId: fl_hXhuavtRHr
 authentication: {}
 authenticationType: null
 body:
@@ -38,6 +38,6 @@ headers:
   id: pp4fD2ivev
 method: POST
 name: Create a new user
-sortPriority: 0.0
+sortPriority: 2000.0
 url: http://localhost:8000/api/v1/users
 urlParameters: []

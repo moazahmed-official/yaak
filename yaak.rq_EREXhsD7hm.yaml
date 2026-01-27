@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_EREXhsD7hm
 createdAt: 2026-01-26T23:51:10.406301100
-updatedAt: 2026-01-26T23:52:19.478333500
+updatedAt: 2026-01-27T16:39:25.974679300
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_7DSumHGD3i
 authentication: {}
@@ -13,7 +13,7 @@ description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 2|5619fGbgosMzT5ZUsJNPw0POorL5cHVBnNX9ty264ddffbe6
+  value: Bearer 10|YVgFiK8n3amF5uV5FOhcvXxrk24ZiaY70wCaYETua9fd915a
   id: Z3SAeEEF0r
 - enabled: true
   name: Accept
@@ -22,9 +22,9 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: KpdhXWb290
+  id: kuAkVWabUi
 method: POST
 name: Logout
-sortPriority: 0.0
+sortPriority: 3000.0
 url: http://localhost:8000/api/v1/auth/logout
 urlParameters: []

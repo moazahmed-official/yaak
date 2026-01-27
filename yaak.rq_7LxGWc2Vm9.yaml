@@ -1,27 +1,27 @@
 type: http_request
 model: http_request
-id: rq_dtYEZXSRin
-createdAt: 2026-01-26T23:40:02.060208
-updatedAt: 2026-01-27T16:39:44.911632700
+id: rq_7LxGWc2Vm9
+createdAt: 2026-01-27T16:10:18.657970600
+updatedAt: 2026-01-27T16:39:25.967354300
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_7DSumHGD3i
 authentication: {}
 authenticationType: null
 body:
-  text: '{"email":"user@example.com","password":"password"}'
+  text: '{ "phone":"+1234567890" }'
 bodyType: application/json
 description: ''
 headers:
 - enabled: true
-  name: Content-Type
-  value: application/json
-  id: null
-- enabled: true
   name: Accept
   value: application/json
   id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
 method: POST
-name: Login with email
-sortPriority: 4000.0
-url: http://localhost:8000/api/v1/auth/login
+name: Request Reset Password OTP
+sortPriority: 2000.0
+url: http://localhost:8000/api/v1/auth/password/reset-request
 urlParameters: []

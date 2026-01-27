@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_5pxkEpHn8v
+createdAt: 2026-01-27T16:13:09.415585
+updatedAt: 2026-01-27T16:40:00.798164600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_urCu2DeN9c
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "documents":[
+          {"type":"business_license","url":"https://example.com/license.pdf","description":"License"},
+          {"type":"tax_certificate","url":"https://example.com/tax.pdf"}
+        ]
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 8KCTYIuFvq
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: czVJ8eBg9h
+- enabled: true
+  name: Authorization
+  value: Bearer 18|aXIuw0PFI42bZdE8xuYRKRcxzYwavOEqFYvk09Mk606aff89
+  id: muj5VH8gwE
+- enabled: true
+  name: ''
+  value: ''
+  id: iw8cvwZjYV
+method: POST
+name: Submit verification request
+sortPriority: 1000.0
+url: http://localhost:8000/api/v1/seller-verification
+urlParameters: []

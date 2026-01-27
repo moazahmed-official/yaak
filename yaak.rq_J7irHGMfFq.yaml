@@ -2,9 +2,9 @@ type: http_request
 model: http_request
 id: rq_J7irHGMfFq
 createdAt: 2026-01-27T01:35:27.745597
-updatedAt: 2026-01-27T01:36:59.702736600
+updatedAt: 2026-01-27T15:22:26.437937300
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_RYVDfgGhKH
+folderId: fl_hXhuavtRHr
 authentication: {}
 authenticationType: null
 body: {}
@@ -25,6 +25,6 @@ headers:
   id: sRKws3HHtB
 method: GET
 name: Get User Details
-sortPriority: -1769477567830.0
+sortPriority: 4000.0
 url: http://localhost:8000/api/v1/users/5
 urlParameters: []

@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_os5Bji6qq8
-createdAt: 2026-01-27T01:45:10.496426200
-updatedAt: 2026-01-27T15:22:43.492595800
+id: rq_6AG74rSfH9
+createdAt: 2026-01-27T16:26:28.798856500
+updatedAt: 2026-01-27T16:45:52.594862700
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_iVYqNGJqYy
+folderId: fl_KiUtFUwWDM
 authentication: {}
 authenticationType: null
 body: {}
@@ -14,17 +14,17 @@ headers:
 - enabled: true
   name: Accept
   value: application/json
-  id: t8qbXBu68q
+  id: TexFfWf8bH
 - enabled: true
   name: Authorization
-  value: Bearer 7|nn18J1v93pkOggsleEnTYvGjtyjH7BMFgMqyumgfdaa167b7
-  id: vxGCdgSta9
+  value: Bearer 17|1qHKYFr6jHdCXJG2twMCpbOFYfZWy7VpOxM8S5U1b6d57e10
+  id: JhyiX2vr28
 - enabled: true
   name: ''
   value: ''
-  id: MPi2kyfRtc
+  id: 8s4N758gPC
 method: GET
-name: List Roles
+name: List verification requests
 sortPriority: 0.0
-url: http://localhost:8000/api/v1/roles
+url: http://localhost:8000/api/v1/seller-verification/admin
 urlParameters: []

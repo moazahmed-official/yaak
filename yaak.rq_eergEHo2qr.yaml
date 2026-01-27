@@ -1,0 +1,40 @@
+type: http_request
+model: http_request
+id: rq_eergEHo2qr
+createdAt: 2026-01-27T15:42:28.447395800
+updatedAt: 2026-01-27T16:39:25.995821
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_7DSumHGD3i
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "name":"New User",
+        "email":"user@example.com",
+        "phone":"+015488878787",
+        "country_id":1,
+        "password":"password",
+        "password_confirmation":"password",
+        "account_type":"individual"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: null
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: Register a new account
+sortPriority: 6000.0
+url: http://localhost:8000/api/v1/auth/register
+urlParameters: []

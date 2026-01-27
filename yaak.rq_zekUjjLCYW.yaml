@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_zekUjjLCYW
+createdAt: 2026-01-27T16:25:17.938719900
+updatedAt: 2026-01-27T16:39:18.778074200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_urCu2DeN9c
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: XvgpR66mwX
+- enabled: true
+  name: Authorization
+  value: Bearer 14|PfJ800ZcsW9yqxcWiMH8NoatJgALwMoP6gvrmT6K55583b87
+  id: 5pNSaFXpgt
+- enabled: true
+  name: ''
+  value: ''
+  id: JAw8A3e9x9
+method: GET
+name: View request status
+sortPriority: 2000.0
+url: http://localhost:8000/api/v1/seller-verification
+urlParameters: []

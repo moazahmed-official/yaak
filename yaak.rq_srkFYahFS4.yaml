@@ -1,0 +1,35 @@
+type: http_request
+model: http_request
+id: rq_srkFYahFS4
+createdAt: 2026-01-27T16:45:04.556129700
+updatedAt: 2026-01-27T16:46:49.489832300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_KiUtFUwWDM
+authentication: {}
+authenticationType: null
+body:
+  text: '{ "status":"approved", "admin_comments":"Verified manually by admin." }'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: MheeVyinPt
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: qGuQt9WcK6
+- enabled: true
+  name: Authorization
+  value: Bearer 17|1qHKYFr6jHdCXJG2twMCpbOFYfZWy7VpOxM8S5U1b6d57e10
+  id: Qy0QNdhMAD
+- enabled: true
+  name: ''
+  value: ''
+  id: wREB7zAzCQ
+method: POST
+name: Verify Seller/Showroom without request
+sortPriority: 2000.0
+url: http://localhost:8000/api/v1/users/5/verify
+urlParameters: []

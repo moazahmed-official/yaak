@@ -1,0 +1,35 @@
+type: http_request
+model: http_request
+id: rq_S4ZKLxGpWX
+createdAt: 2026-01-27T16:34:25.835949900
+updatedAt: 2026-01-27T16:45:52.603333700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_KiUtFUwWDM
+authentication: {}
+authenticationType: null
+body:
+  text: '{ "status":"rejected","admin_comments":"Docs OK" }'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: mneP8S9PXV
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: k4h2W393hK
+- enabled: true
+  name: Authorization
+  value: Bearer 17|1qHKYFr6jHdCXJG2twMCpbOFYfZWy7VpOxM8S5U1b6d57e10
+  id: BuEuKJIuhQ
+- enabled: true
+  name: ''
+  value: ''
+  id: 3g7sxvENk9
+method: PUT
+name: Approve/Reject a verification request
+sortPriority: 1000.0
+url: http://localhost:8000/api/v1/seller-verification/2
+urlParameters: []
