@@ -1,0 +1,27 @@
+type: http_request
+model: http_request
+id: rq_8NLV7RF9Ji
+createdAt: 2026-01-26T23:55:46.717280100
+updatedAt: 2026-01-27T00:02:06.584698500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_7DSumHGD3i
+authentication: {}
+authenticationType: null
+body:
+  text: '{"phone":"+200000000000","password":"password"}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: POST
+name: Login phone
+sortPriority: 0.001
+url: http://localhost:8000/api/v1/auth/login
+urlParameters: []

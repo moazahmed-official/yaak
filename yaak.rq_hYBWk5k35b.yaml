@@ -1,0 +1,43 @@
+type: http_request
+model: http_request
+id: rq_hYBWk5k35b
+createdAt: 2026-01-26T23:46:07.096852
+updatedAt: 2026-01-27T00:17:43.176290400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RYVDfgGhKH
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "name": "Moaz Ahmed",
+        "email": "moaz@example.com",
+        "phone": "01015036264",
+        "country_id": 1,
+        "account_type": "individual",
+        "password": "password"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: rCYFtWdA9K
+- enabled: true
+  name: Authorization
+  value: Bearer 4|AlNShNZ78zEW48czBqFKaEF18UNGm7OtREfzIaC4bafe9395
+  id: UDPz0TniRP
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: SBUCQY9P0x
+- enabled: true
+  name: ''
+  value: ''
+  id: pp4fD2ivev
+method: POST
+name: create a new user
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/users
+urlParameters: []

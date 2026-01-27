@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_EREXhsD7hm
+createdAt: 2026-01-26T23:51:10.406301100
+updatedAt: 2026-01-26T23:52:19.478333500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_7DSumHGD3i
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|5619fGbgosMzT5ZUsJNPw0POorL5cHVBnNX9ty264ddffbe6
+  id: Z3SAeEEF0r
+- enabled: true
+  name: Accept
+  value: application/json
+  id: TwfS57YkSp
+- enabled: true
+  name: ''
+  value: ''
+  id: KpdhXWb290
+method: POST
+name: Logout
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/auth/logout
+urlParameters: []
