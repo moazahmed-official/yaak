@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_J7irHGMfFq
+createdAt: 2026-01-27T01:35:27.745597
+updatedAt: 2026-01-27T01:36:59.702736600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RYVDfgGhKH
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: bwheBS4eXJ
+- enabled: true
+  name: Authorization
+  value: Bearer 7|nn18J1v93pkOggsleEnTYvGjtyjH7BMFgMqyumgfdaa167b7
+  id: 5Z5CeTdVPk
+- enabled: true
+  name: ''
+  value: ''
+  id: sRKws3HHtB
+method: GET
+name: Get User Details
+sortPriority: -1769477567830.0
+url: http://localhost:8000/api/v1/users/5
+urlParameters: []

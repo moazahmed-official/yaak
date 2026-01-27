@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_hYBWk5k35b
 createdAt: 2026-01-26T23:46:07.096852
-updatedAt: 2026-01-27T00:17:43.176290400
+updatedAt: 2026-01-27T01:43:35.181153200
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_RYVDfgGhKH
 authentication: {}
@@ -10,9 +10,9 @@ authenticationType: null
 body:
   text: |-
     {
-        "name": "Moaz Ahmed",
-        "email": "moaz@example.com",
-        "phone": "01015036264",
+        "name": "Moaz Ahmed Test",
+        "email": "moaz2@example.com",
+        "phone": "01015036255",
         "country_id": 1,
         "account_type": "individual",
         "password": "password"
@@ -37,7 +37,7 @@ headers:
   value: ''
   id: pp4fD2ivev
 method: POST
-name: create a new user
+name: Create a new user
 sortPriority: 0.0
 url: http://localhost:8000/api/v1/users
 urlParameters: []

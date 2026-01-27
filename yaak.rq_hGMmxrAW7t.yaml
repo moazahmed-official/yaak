@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_hGMmxrAW7t
+createdAt: 2026-01-27T01:46:27.297656
+updatedAt: 2026-01-27T02:10:26.888788200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RYVDfgGhKH
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+    "roles": ["dealer"]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 6HjfHb3a7R
+- enabled: true
+  name: Authorization
+  value: Bearer 9|RMk9l5xXbLjP9BkJPfXxjoIEDAhM2E2UnQFKiIxm93d3c24b
+  id: zbEAihZVjm
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: FJ2PJutkzq
+- enabled: true
+  name: ''
+  value: ''
+  id: 6PmGnFccrh
+method: POST
+name: Assign role to the user
+sortPriority: 0.001
+url: http://localhost:8000/api/v1/users/5/roles
+urlParameters: []

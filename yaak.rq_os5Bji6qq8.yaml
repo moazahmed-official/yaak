@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_os5Bji6qq8
+createdAt: 2026-01-27T01:45:10.496426200
+updatedAt: 2026-01-27T01:45:47.047488300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RYVDfgGhKH
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: t8qbXBu68q
+- enabled: true
+  name: Authorization
+  value: Bearer 7|nn18J1v93pkOggsleEnTYvGjtyjH7BMFgMqyumgfdaa167b7
+  id: vxGCdgSta9
+- enabled: true
+  name: ''
+  value: ''
+  id: MPi2kyfRtc
+method: GET
+name: List Roles
+sortPriority: 0.001
+url: http://localhost:8000/api/v1/roles
+urlParameters: []

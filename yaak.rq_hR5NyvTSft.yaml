@@ -1,0 +1,40 @@
+type: http_request
+model: http_request
+id: rq_hR5NyvTSft
+createdAt: 2026-01-27T01:38:08.984355900
+updatedAt: 2026-01-27T01:41:26.223360400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RYVDfgGhKH
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+    "name": "Moaz",
+    "email": "moaz@example.com",
+    "password": "password"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: cz77853v7V
+- enabled: true
+  name: Authorization
+  value: Bearer 8|HKolc4C9JmYEX0mIwhesDuoft8v2816n7ilFR8Aa2cb6df0b
+  id: A2DknQp5Cq
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: Svddp3Acbx
+- enabled: true
+  name: ''
+  value: ''
+  id: EqEncKYrht
+method: PUT
+name: Update User Data admin
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/users/5
+urlParameters: []
