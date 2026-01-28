@@ -1,0 +1,47 @@
+type: http_request
+model: http_request
+id: rq_A95cV3miRX
+createdAt: 2026-01-28T00:06:28.218835
+updatedAt: 2026-01-28T00:08:05.188113300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title": "2019 BMW X5 for Sale",
+        "description": "Luxury SUV in pristine condition...",
+        "category_id": 2,
+        "city_id": 1,
+        "country_id": 1,
+        "brand_id": 1,
+        "model_id": 4,
+        "year": 2019,
+        "price_cash": 45000,
+        "media_ids": [1, 2, 3]
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: EgakcMZsTH
+- enabled: true
+  name: Accept
+  value: application/json
+  id: tHyMGDya3E
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: Rq4MjT2dHi
+- enabled: true
+  name: ''
+  value: ''
+  id: QcbIY4XBbB
+method: POST
+name: Create Normal Ad Copy with media
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/normal-ads
+urlParameters: []

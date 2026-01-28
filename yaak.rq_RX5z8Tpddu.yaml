@@ -1,0 +1,51 @@
+type: http_request
+model: http_request
+id: rq_RX5z8Tpddu
+createdAt: 2026-01-27T22:46:22.292243400
+updatedAt: 2026-01-27T22:46:22.292243700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ZbXRqekhU8
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    file: C:\Users\moaza\Downloads\WhatsApp Image 2026-01-13 at 4.12.37 PM (2) (2).jpeg
+    id: c3c2HmqF0j
+    name: file
+  - enabled: true
+    id: aCVX3aIUNE
+    name: purpose
+    value: profile
+  - enabled: true
+    id: fAfiWuHByH
+    name: related_resource
+    value: users
+  - enabled: true
+    id: ECp6qDXJg3
+    name: related_id
+    value: '123'
+  - enabled: true
+    id: GnybG0R2md
+    name: ''
+    value: ''
+bodyType: multipart/form-data
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: t5SvwyRs73
+- enabled: true
+  name: Content-Type
+  value: multipart/form-data
+  id: r3qJk2T6R4
+- enabled: true
+  name: ''
+  value: ''
+  id: gxZMTXUmB0
+method: POST
+name: Upload Image
+sortPriority: -1769553642987.0
+url: http://127.0.0.1:8000/api/v1/media
+urlParameters: []

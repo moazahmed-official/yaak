@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_YXCAGSxPKc
+createdAt: 2026-01-27T22:54:03.083385800
+updatedAt: 2026-01-27T22:54:44.662995500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ZbXRqekhU8
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: GYR497f4Mx
+- enabled: true
+  name: ''
+  value: ''
+  id: aTK0EBUUqq
+method: DELETE
+name: Delete own media
+sortPriority: -1769553642987.0
+url: http://127.0.0.1:8000/api/v1/media/4
+urlParameters: []

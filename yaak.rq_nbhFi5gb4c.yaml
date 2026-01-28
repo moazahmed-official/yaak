@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_nbhFi5gb4c
+createdAt: 2026-01-28T00:08:48.860694800
+updatedAt: 2026-01-28T00:43:17.137509700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "status":"expired"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: CddVc3RpxI
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 3s6THZpP0V
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: 3ugCFWTgSQ
+- enabled: true
+  name: ''
+  value: ''
+  id: QPRjhyvcfe
+method: PUT
+name: Update Normal Ad
+sortPriority: -1769558928857.0
+url: http://localhost:8000/api/v1/normal-ads/18
+urlParameters: []

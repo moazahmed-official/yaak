@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_GjWi42wxAw
+createdAt: 2026-01-27T17:51:39.770861300
+updatedAt: 2026-01-27T18:22:09.977371500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_meWSYqPvSo
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List Brands
+sortPriority: 1000.0
+url: http://localhost:8000/api/v1/brands
+urlParameters: []

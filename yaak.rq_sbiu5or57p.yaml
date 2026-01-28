@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_sbiu5or57p
+createdAt: 2026-01-27T18:22:50.502539600
+updatedAt: 2026-01-27T18:24:19.583067500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_XjVTgKa93p
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "name_en": "Land cruser",
+        "name_ar": "لاند كروسر",
+        "year_from": 2020,
+        "year_to": 2026
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: DDyaZCnihz
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 54TXwUReag
+- enabled: true
+  name: Authorization
+  value: Bearer 16|wyZPX3HHu5tnKdQNzCDdlNqwAkLe8MKkheu4v7Rx593333ba
+  id: gv5FJCN27x
+- enabled: true
+  name: ''
+  value: ''
+  id: pb7nijKFqf
+method: POST
+name: Cerate new Model
+sortPriority: 1000.0
+url: http://localhost:8000/api/v1/brands/1/models
+urlParameters: []

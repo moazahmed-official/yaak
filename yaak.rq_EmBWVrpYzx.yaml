@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_EmBWVrpYzx
+createdAt: 2026-01-27T23:08:26.628657500
+updatedAt: 2026-01-27T23:08:59.683532400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ZbXRqekhU8
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: c8Sbyj9Fsa
+- enabled: true
+  name: ''
+  value: ''
+  id: HDw2pMKBkr
+method: GET
+name: List user Media
+sortPriority: -1769553642987.0
+url: http://127.0.0.1:8000/api/v1/media
+urlParameters:
+- enabled: true
+  name: type
+  value: image
+  id: null
+- enabled: true
+  name: page
+  value: '1'
+  id: null

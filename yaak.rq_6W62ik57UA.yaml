@@ -1,0 +1,35 @@
+type: http_request
+model: http_request
+id: rq_6W62ik57UA
+createdAt: 2026-01-27T18:44:42.246034900
+updatedAt: 2026-01-27T18:47:18.590894600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_XjVTgKa93p
+authentication: {}
+authenticationType: null
+body:
+  text: "{\n  \"name_en\":\"Mercedes-Benz AG\",\n  \"name_ar\":\"مرسيدس بنز أج\"\n  \n}"
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: Ys5zCuG6nM
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 6fAjSmSFcG
+- enabled: true
+  name: Authorization
+  value: Bearer 17|1qHKYFr6jHdCXJG2twMCpbOFYfZWy7VpOxM8S5U1b6d57e10
+  id: P85jjwYxJX
+- enabled: true
+  name: ''
+  value: ''
+  id: jTDr9Jt0iR
+method: PUT
+name: Update Brand
+sortPriority: 1000.0
+url: http://localhost:8000/api/v1/brands/3
+urlParameters: []

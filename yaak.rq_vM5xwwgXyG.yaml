@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_vM5xwwgXyG
+createdAt: 2026-01-27T23:58:00.215264100
+updatedAt: 2026-01-28T00:44:41.615221400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: See ad details
+sortPriority: -1769553642987.0
+url: http://localhost:8000/api/v1/normal-ads/18
+urlParameters: []

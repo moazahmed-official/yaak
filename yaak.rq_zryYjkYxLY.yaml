@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_zryYjkYxLY
+createdAt: 2026-01-28T00:43:35.286385200
+updatedAt: 2026-01-28T00:45:19.004768800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: Q4ih7xc6P0
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: xAHyWTZFPX
+- enabled: true
+  name: ''
+  value: ''
+  id: cVNgDtPs8J
+method: POST
+name: Republish Expired Ad
+sortPriority: -1769558928857.0
+url: http://localhost:8000/api/v1/normal-ads/18/actions/republish
+urlParameters: []

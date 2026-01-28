@@ -1,0 +1,51 @@
+type: http_request
+model: http_request
+id: rq_3vjTN3YszY
+createdAt: 2026-01-27T18:49:51.802372400
+updatedAt: 2026-01-27T18:53:37.821484700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_XjVTgKa93p
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    id: 9wuuRu8u6X
+    name: _method
+    value: PUT
+  - enabled: true
+    id: sU4qnQBenr
+    name: name_en
+    value: Prius Hybrid
+  - enabled: true
+    file: C:\Users\moaza\Downloads\تصميم بدون عنوان (1).png
+    id: XCxAxzFsjJ
+    name: image
+  - enabled: true
+    id: CiRmEdhKSF
+    name: ''
+    value: ''
+bodyType: multipart/form-data
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: yXidnDkHVZ
+- enabled: true
+  name: Authorization
+  value: Bearer 17|1qHKYFr6jHdCXJG2twMCpbOFYfZWy7VpOxM8S5U1b6d57e10
+  id: QrqvpC34CT
+- enabled: true
+  name: Content-Type
+  value: multipart/form-data
+  id: pCqX26Qb0z
+- enabled: true
+  name: ''
+  value: ''
+  id: xK88x0qcUK
+method: POST
+name: Update Model
+sortPriority: -1769539673745.0
+url: http://localhost:8000/api/v1/brands/1/models/1
+urlParameters: []

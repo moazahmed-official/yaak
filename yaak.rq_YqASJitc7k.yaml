@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_YqASJitc7k
+createdAt: 2026-01-28T00:37:30.162414100
+updatedAt: 2026-01-28T00:37:59.268695200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 3JDD9WQJcn
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: hZKsbPjyqB
+- enabled: true
+  name: ''
+  value: ''
+  id: yKCvZVTYTG
+method: DELETE
+name: Delete Normal Ad
+sortPriority: -1769558928857.0
+url: http://localhost:8000/api/v1/normal-ads/1
+urlParameters: []

@@ -1,0 +1,47 @@
+type: http_request
+model: http_request
+id: rq_WKioPazJV2
+createdAt: 2026-01-28T00:23:16.933188300
+updatedAt: 2026-01-28T01:02:36.363422500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_qP6gqeC439
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "user_id": 5,
+        "title": "Last Admin Test",
+        "description": "This ad was created by an admin for user ID 5.",
+        "category_id": 1,
+        "city_id": 2,
+        "country_id": 1,
+        "brand_id": 1,
+        "model_id": 4,
+        "year": 2023,
+        "price_cash": 45000
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: Ka2xbHRIrD
+- enabled: true
+  name: Accept
+  value: application/json
+  id: Hs3Cmre0ZA
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: cY8X04X9sy
+- enabled: true
+  name: ''
+  value: ''
+  id: qZiWRTwKiI
+method: POST
+name: Create for user
+sortPriority: -1769553642987.0
+url: http://localhost:8000/api/v1/normal-ads
+urlParameters: []

@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_uTWqHhTpBY
+createdAt: 2026-01-27T18:47:53.748496500
+updatedAt: 2026-01-27T18:48:25.707926300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_XjVTgKa93p
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: bwDgKKpjIH
+- enabled: true
+  name: Authorization
+  value: Bearer 17|1qHKYFr6jHdCXJG2twMCpbOFYfZWy7VpOxM8S5U1b6d57e10
+  id: A6SfHMxZ98
+- enabled: true
+  name: ''
+  value: ''
+  id: Uzs0mAgI6C
+method: DELETE
+name: Delete Brand
+sortPriority: -1769539673745.0
+url: http://localhost:8000/api/v1/brands/3
+urlParameters: []

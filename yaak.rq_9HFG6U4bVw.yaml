@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_9HFG6U4bVw
+createdAt: 2026-01-27T23:56:21.226992700
+updatedAt: 2026-01-28T00:42:42.512377500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List all normal ads with pagination and filters
+sortPriority: -1769553642987.0
+url: http://localhost:8000/api/v1/normal-ads
+urlParameters:
+- enabled: false
+  name: brand_id
+  value: '1'
+  id: Ndb7WMCrA9
+- enabled: false
+  name: city_id
+  value: '2'
+  id: 3zMdk0Dcwy
+- enabled: true
+  name: user_id
+  value: '1'
+  id: f54mtAhWDw
+- enabled: true
+  name: per_page
+  value: '100'
+  id: 2mBgpmKXYz
+- enabled: true
+  name: ''
+  value: ''
+  id: 9bZfHzq2Qs

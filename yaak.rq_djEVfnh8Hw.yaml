@@ -1,0 +1,43 @@
+type: http_request
+model: http_request
+id: rq_djEVfnh8Hw
+createdAt: 2026-01-27T22:46:22.291841600
+updatedAt: 2026-01-27T22:46:22.291841800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ZbXRqekhU8
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    file: C:\Users\moaza\Downloads\iryvxDZLIiXqTnfQv1IoHeC7Fq44B5NtBXOYEqeV.mp4
+    id: aaHbr2jzB0
+    name: file
+  - enabled: true
+    id: p9hvB7cgpb
+    name: purpose
+    value: ad
+  - enabled: true
+    id: FcySXsd8VR
+    name: ''
+    value: ''
+bodyType: multipart/form-data
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: dqqgxFVYxy
+- enabled: true
+  name: Content-Type
+  value: multipart/form-data
+  id: DCvipFcCrH
+- enabled: true
+  name: ''
+  value: ''
+  id: X4Yv2U0pzv
+method: POST
+name: Upload Video
+sortPriority: -1769553642987.0
+url: http://127.0.0.1:8000/api/v1/media
+urlParameters: []

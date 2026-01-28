@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_FNGjuykeYX
+createdAt: 2026-01-27T17:53:01.831706
+updatedAt: 2026-01-27T17:54:01.207596800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_XjVTgKa93p
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "name_en": "Mercedes-Benz",
+        "name_ar": "مرسيدس بنز"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: unbRpm8jI9
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 93eNytWg0K
+- enabled: true
+  name: Authorization
+  value: Bearer 17|1qHKYFr6jHdCXJG2twMCpbOFYfZWy7VpOxM8S5U1b6d57e10
+  id: z9CHWmR7v7
+- enabled: true
+  name: ''
+  value: ''
+  id: tecn4c99EB
+method: POST
+name: Create new brand
+sortPriority: 1000.0
+url: http://localhost:8000/api/v1/brands
+urlParameters: []

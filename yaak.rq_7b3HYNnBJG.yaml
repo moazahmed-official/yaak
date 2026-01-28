@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_7b3HYNnBJG
+createdAt: 2026-01-28T01:00:27.071022200
+updatedAt: 2026-01-28T01:04:57.894537500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: Q2fIne4ryf
+- enabled: true
+  name: Authorization
+  value: Bearer 21|kd5PsnzNxw7DJicJKn6Z8wWV1qUwBMBAXLYt5XRh3a35a0d4
+  id: CydZghqnVa
+- enabled: true
+  name: ''
+  value: ''
+  id: I7mgHIT5zt
+method: GET
+name: List my ads
+sortPriority: -1769553642987.0
+url: http://localhost:8000/api/v1/normal-ads/my-ads
+urlParameters: []
