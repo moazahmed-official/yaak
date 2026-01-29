@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_pRk6sALBdD
+createdAt: 2026-01-29T01:17:54.788729500
+updatedAt: 2026-01-29T01:28:09.270230600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ouWPQgu9Fe
+authentication: {}
+authenticationType: null
+body:
+  text: '{"name":"New Promo","image_id":1,"category_id":1,"value":"https://example.com/promo","status":"active"}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: CskMubG9yE
+- enabled: true
+  name: Accept
+  value: application/json
+  id: yUDrJtR4hi
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 7PNuGJqHRg
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: 2tPWxQEizW
+- enabled: true
+  name: ''
+  value: ''
+  id: YvKgsCiFzA
+method: POST
+name: Create new slider
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/sliders
+urlParameters: []

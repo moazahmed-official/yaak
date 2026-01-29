@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_aS9aLJPx3j
+createdAt: 2026-01-28T23:53:41.158948300
+updatedAt: 2026-01-28T23:54:37.885194100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body:
+  text: '{"type":"phone"}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: UC9isuFSrn
+- enabled: true
+  name: Accept
+  value: application/json
+  id: WyJNZ0hreu
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: WtS5dfxd3f
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: uZD9TYFuk7
+- enabled: true
+  name: ''
+  value: ''
+  id: BAHbKM7EVc
+method: POST
+name: Retrieve Seller contacts
+sortPriority: -1769553642986.998
+url: http://localhost:8000/api/v1/unique-ads/20/contact
+urlParameters: []

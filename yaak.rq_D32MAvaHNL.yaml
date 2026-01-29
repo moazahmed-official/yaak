@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_D32MAvaHNL
+createdAt: 2026-01-28T21:12:01.469233400
+updatedAt: 2026-01-28T21:12:48.723636400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: Yg7zMiFizc
+- enabled: true
+  name: Accept
+  value: application/json
+  id: hX3r4eCr8P
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: RHV4t9bSKh
+- enabled: true
+  name: ''
+  value: ''
+  id: I6AhFTNRDb
+method: POST
+name: Republish Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/20/actions/republish
+urlParameters: []

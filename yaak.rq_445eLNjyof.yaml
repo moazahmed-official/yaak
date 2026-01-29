@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_445eLNjyof
+createdAt: 2026-01-29T01:22:12.400111500
+updatedAt: 2026-01-29T01:23:12.206934600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ouWPQgu9Fe
+authentication: {}
+authenticationType: null
+body:
+  text: '{"name":"Updated Promo","value":"https://example.com/new"}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: 6X4kfwIJAq
+- enabled: true
+  name: Accept
+  value: application/json
+  id: VzNrMBST0r
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: DgI7X7V6Zt
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: TKGGekemUJ
+- enabled: true
+  name: ''
+  value: ''
+  id: ZByuY00Bwf
+method: PUT
+name: Update Slider
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/sliders/2
+urlParameters: []

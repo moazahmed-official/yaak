@@ -2,7 +2,7 @@ type: folder
 model: folder
 id: fl_ZbXRqekhU8
 createdAt: 2026-01-27T22:46:22.289860300
-updatedAt: 2026-01-27T22:46:48.271028100
+updatedAt: 2026-01-29T01:20:28.937054700
 workspaceId: wk_RRa5Yod5Uo
 folderId: null
 authentication: {}
@@ -10,4 +10,4 @@ authenticationType: null
 description: ''
 headers: []
 name: Media
-sortPriority: 0.0
+sortPriority: 2000.0

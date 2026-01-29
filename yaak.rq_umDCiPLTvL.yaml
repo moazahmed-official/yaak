@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_umDCiPLTvL
+createdAt: 2026-01-28T23:45:39.967913200
+updatedAt: 2026-01-28T23:48:28.674197100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body:
+  form:
+  - enabled: true
+    name: '{"reason":"Original documents available; low mileage; full service history","evidence_media_ids":[12,13]}'
+    value: ''
+bodyType: application/x-www-form-urlencoded
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: AHAQzaqSgn
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 3V5YPnHJkd
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: rGzJa9pHks
+- enabled: true
+  name: Content-Type
+  value: application/x-www-form-urlencoded
+  id: 5gqrhXH4p9
+- enabled: true
+  name: ''
+  value: ''
+  id: 6IRpAQzHVx
+method: POST
+name: Send Verification request
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/22/actions/verify
+urlParameters: []

@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_i8da7Dnuh3
+createdAt: 2026-01-29T00:35:55.220270100
+updatedAt: 2026-01-29T00:37:12.004104500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: VzXW55Izej
+- enabled: true
+  name: Accept
+  value: application/json
+  id: f6UCc0Emcn
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: NZucQ0Gn5h
+- enabled: true
+  name: ''
+  value: ''
+  id: Y3uw5E3SID
+method: POST
+name: Convert Unique to normal
+sortPriority: -1769553642986.995
+url: http://localhost:8000/api/v1/unique-ads/20/actions/convert-to-normal
+urlParameters: []

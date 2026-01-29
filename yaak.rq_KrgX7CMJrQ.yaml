@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_KrgX7CMJrQ
+createdAt: 2026-01-29T00:37:25.141431900
+updatedAt: 2026-01-29T00:38:14.388151300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body:
+  text: '{"banner_image_id":123,"banner_color":"#FF5500","is_auto_republished":true}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: SgC0mUNGfE
+- enabled: true
+  name: Accept
+  value: application/json
+  id: WV0k4RmkQZ
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: jYpC6at8EK
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: MBZdbmU3w3
+- enabled: true
+  name: ''
+  value: ''
+  id: Vc0ZiQsXgE
+method: POST
+name: ''
+sortPriority: -1769553642986.995
+url: http://localhost:8000/api/v1/normal-ads/16/actions/convert-to-unique
+urlParameters: []

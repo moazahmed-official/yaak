@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_rjkYt8djp6
+createdAt: 2026-01-28T23:49:02.892253200
+updatedAt: 2026-01-28T23:49:33.018670800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_dQkZfyBaGQ
+authentication: {}
+authenticationType: null
+body:
+  text: '{"reason":"Photos do not meet quality standards"}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: kQaz4aaADe
+- enabled: true
+  name: Accept
+  value: application/json
+  id: rkUGGDJWc9
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: Aiese0z5jq
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: g5TgnMziCW
+- enabled: true
+  name: ''
+  value: ''
+  id: BJ2KU2ZWJu
+method: POST
+name: Reject Verification Request
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/22/actions/reject-verification
+urlParameters: []

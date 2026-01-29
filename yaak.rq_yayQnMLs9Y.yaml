@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_yayQnMLs9Y
+createdAt: 2026-01-29T01:21:42.714003100
+updatedAt: 2026-01-29T01:21:56.023769800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_nxUSfiSAva
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: null
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: Show Slider
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/sliders/1
+urlParameters: []

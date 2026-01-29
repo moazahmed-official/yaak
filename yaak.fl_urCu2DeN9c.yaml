@@ -2,7 +2,7 @@ type: folder
 model: folder
 id: fl_urCu2DeN9c
 createdAt: 2026-01-27T16:13:35.405088100
-updatedAt: 2026-01-27T22:46:32.147468700
+updatedAt: 2026-01-29T01:20:28.915740500
 workspaceId: wk_RRa5Yod5Uo
 folderId: null
 authentication: {}
@@ -10,4 +10,4 @@ authenticationType: null
 description: ''
 headers: []
 name: Seller/Showroom
-sortPriority: 1000.0
+sortPriority: 3000.0

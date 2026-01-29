@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_9MHyZG3ChX
+createdAt: 2026-01-28T23:47:32.289503600
+updatedAt: 2026-01-28T23:48:57.184460700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_dQkZfyBaGQ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: 5G7RiYJvCc
+- enabled: true
+  name: Accept
+  value: application/json
+  id: TdBPNYn86g
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: cutFbZm9pZ
+- enabled: true
+  name: ''
+  value: ''
+  id: xeqTjzi9t5
+method: POST
+name: Approve Verification request
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/20/actions/approve-verification
+urlParameters: []

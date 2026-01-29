@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_i2Eg3YL2dV
+createdAt: 2026-01-28T21:15:27.442274700
+updatedAt: 2026-01-29T00:43:57.369297400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: null
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: See Ad details
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/16
+urlParameters: []

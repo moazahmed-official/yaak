@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_EyK8FBV7Wk
+createdAt: 2026-01-28T16:53:21.928954500
+updatedAt: 2026-01-28T17:00:59.059075100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_qP6gqeC439
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: AJgkG2zDNt
+- enabled: true
+  name: Accept
+  value: application/json
+  id: j3dVSCNwBj
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: CZICGRKhhZ
+- enabled: true
+  name: ''
+  value: ''
+  id: tydU4iaXxk
+method: GET
+name: All Ads Stats
+sortPriority: 6000.0
+url: http://localhost:8000/api/v1/normal-ads/stats
+urlParameters: []

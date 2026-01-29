@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_rMvWTJ6mbS
+createdAt: 2026-01-29T00:19:58.027187500
+updatedAt: 2026-01-29T00:22:55.035096800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_dQkZfyBaGQ
+authentication: {}
+authenticationType: null
+body:
+  text: '{"action":"feature","ad_ids":[20,22]}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: BtqrK99bM7
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 5i0AMdwKEh
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: WUCVmgSspN
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: ukMWGe60Cy
+- enabled: true
+  name: ''
+  value: ''
+  id: r0Zvc5gSVV
+method: POST
+name: Admin Bulk Actions
+sortPriority: -1769553642986.995
+url: http://localhost:8000/api/v1/unique-ads/actions/bulk
+urlParameters: []

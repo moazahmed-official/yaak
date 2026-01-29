@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_fAZacWnb8c
+createdAt: 2026-01-29T01:19:47.395625500
+updatedAt: 2026-01-29T01:28:15.795789
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ouWPQgu9Fe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: BIkIM2GpVe
+- enabled: true
+  name: Accept
+  value: application/json
+  id: rE3er8P5z4
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: IvYRZxu5Wd
+- enabled: true
+  name: ''
+  value: ''
+  id: 4385bgJv4q
+method: GET
+name: List All Sliders
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/sliders
+urlParameters:
+- enabled: true
+  name: include_inactive
+  value: '1'
+  id: VdJsSAG8z5
+- enabled: true
+  name: ''
+  value: ''
+  id: gqYjW89WXb

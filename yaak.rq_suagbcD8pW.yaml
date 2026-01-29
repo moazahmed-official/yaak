@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_suagbcD8pW
+createdAt: 2026-01-28T21:14:09.155884900
+updatedAt: 2026-01-28T21:15:23.163922600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: JXEam62RQa
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 6DShFdwJQ0
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: iCGZueHmia
+- enabled: true
+  name: ''
+  value: ''
+  id: jH3DgBSmYx
+method: DELETE
+name: Unfeature Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/20/actions/feature
+urlParameters: []

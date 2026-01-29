@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_nbhFi5gb4c
 createdAt: 2026-01-28T00:08:48.860694800
-updatedAt: 2026-01-28T00:43:17.137509700
+updatedAt: 2026-01-28T15:57:33.516930
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_i8Grrmz6qa
 authentication: {}
@@ -34,5 +34,5 @@ headers:
 method: PUT
 name: Update Normal Ad
 sortPriority: -1769558928857.0
-url: http://localhost:8000/api/v1/normal-ads/18
+url: http://localhost:8000/api/v1/normal-ads/{user own ad id}
 urlParameters: []

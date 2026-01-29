@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_bifgDdHdFz
 createdAt: 2026-01-28T01:05:59.112354500
-updatedAt: 2026-01-28T01:06:53.594300600
+updatedAt: 2026-01-28T17:00:59.038536500
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_qP6gqeC439
 authentication: {}
@@ -25,6 +25,6 @@ headers:
   id: DKEwQ0ZFAc
 method: GET
 name: List All Ads
-sortPriority: -1769553642987.0
+sortPriority: 4000.0
 url: http://localhost:8000/api/v1/normal-ads/admin
 urlParameters: []

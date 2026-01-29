@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_yzBrJyekGV
+createdAt: 2026-01-28T16:51:02.378790200
+updatedAt: 2026-01-28T16:52:23.250899
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: Qd6bRY6RBj
+- enabled: true
+  name: Accept
+  value: application/json
+  id: Ydcm0yIzM2
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: 28q2X2z34W
+- enabled: true
+  name: ''
+  value: ''
+  id: FrCsargGYC
+method: POST
+name: Restore Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/normal-ads/13/actions/restore
+urlParameters: []

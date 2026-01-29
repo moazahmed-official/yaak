@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_EDfeTWPt53
+createdAt: 2026-01-28T17:09:18.705912600
+updatedAt: 2026-01-28T17:12:18.821870400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: StXqTHRvAH
+- enabled: true
+  name: Accept
+  value: application/json
+  id: MJNYqM2qWP
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: IxBRQt89EE
+- enabled: true
+  name: ''
+  value: ''
+  id: gmFwYRwgbT
+method: GET
+name: List my favorite ads
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/normal-ads/favorites
+urlParameters:
+- enabled: true
+  name: limit
+  value: '10'
+  id: null
+- enabled: true
+  name: page
+  value: '1'
+  id: null

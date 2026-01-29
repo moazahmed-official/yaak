@@ -1,0 +1,44 @@
+type: http_request
+model: http_request
+id: rq_zUkDpUxRMA
+createdAt: 2026-01-28T20:49:56.960679200
+updatedAt: 2026-01-28T20:52:23.865127500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title":"Vintage Sports Car - Updated",
+        "banner_color":"#445566",
+        "stats":"Expired"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: C9WxdbndHp
+- enabled: true
+  name: Accept
+  value: application/json
+  id: GKKVeAT8VT
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 63Qi9R69uG
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: 6buMpWrzKy
+- enabled: true
+  name: ''
+  value: ''
+  id: isdR0PNVJI
+method: PUT
+name: Update Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/20
+urlParameters: []

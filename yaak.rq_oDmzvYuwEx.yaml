@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_oDmzvYuwEx
+createdAt: 2026-01-29T01:23:26.902837700
+updatedAt: 2026-01-29T01:31:06.034284
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ouWPQgu9Fe
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: gt2wphtc6x
+- enabled: true
+  name: Accept
+  value: application/json
+  id: PTRdgqhwRh
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: ZM0ywq2G25
+- enabled: true
+  name: ''
+  value: ''
+  id: fKFKqhDFZh
+method: DELETE
+name: Delete Slider
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/sliders/7
+urlParameters: []

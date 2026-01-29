@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_L5mvZDTHzs
+createdAt: 2026-01-28T21:18:11.519123400
+updatedAt: 2026-01-28T21:18:38.237668
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: cc405s5Vp7
+- enabled: true
+  name: Accept
+  value: application/json
+  id: suSKiDkcf8
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: tCZmzc3N59
+- enabled: true
+  name: ''
+  value: ''
+  id: yZKdumkxwI
+method: GET
+name: List My Ads
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads/my-ads
+urlParameters:
+- enabled: true
+  name: limit
+  value: '15'
+  id: null

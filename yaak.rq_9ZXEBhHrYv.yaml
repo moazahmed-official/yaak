@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_9ZXEBhHrYv
+createdAt: 2026-01-28T16:54:17.642629300
+updatedAt: 2026-01-28T16:59:18.055601900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: null
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: Public GET all user Ads
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/users/1/normal-ads
+urlParameters:
+- enabled: true
+  name: limit
+  value: '10'
+  id: null

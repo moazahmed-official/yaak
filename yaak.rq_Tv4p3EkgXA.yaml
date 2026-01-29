@@ -1,0 +1,54 @@
+type: http_request
+model: http_request
+id: rq_Tv4p3EkgXA
+createdAt: 2026-01-28T20:46:58.186566200
+updatedAt: 2026-01-28T20:49:11.924985600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title":"Vintage Sports Car Unique Ad",
+        "description":"A long detailed description at least 50 chars this is not chars shit ...",
+        "category_id":1,
+        "city_id":1,
+        "country_id":1,
+        "brand_id":1,
+        "model_id":2,
+        "year":1985,
+        "contact_phone":"+123456789",
+        "banner_image_id":1,
+        "banner_color":"#112233",
+        "media_ids":[1,2],
+        "is_auto_republished":true
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: TkaDPIin4i
+- enabled: true
+  name: Accept
+  value: application/json
+  id: FkW9yUzn4V
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: d9MCaDqnVg
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: CciV9JZdFj
+- enabled: true
+  name: ''
+  value: ''
+  id: UEacsa9VTv
+method: POST
+name: Create Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads
+urlParameters: []

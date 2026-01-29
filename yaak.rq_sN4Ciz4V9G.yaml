@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_sN4Ciz4V9G
+createdAt: 2026-01-28T16:49:19.816728
+updatedAt: 2026-01-28T16:49:51.677793600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: rsI7ruxFn5
+- enabled: true
+  name: Accept
+  value: application/json
+  id: B0K3tMX0WF
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: KQHqDQqFzf
+- enabled: true
+  name: ''
+  value: ''
+  id: u7TQFIRCKK
+method: POST
+name: Expire Ad
+sortPriority: -1769553642987.0
+url: http://localhost:8000/api/v1/normal-ads/13/actions/expire
+urlParameters: []

@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_zaEnsyQB2c
+createdAt: 2026-01-28T16:58:35.669378200
+updatedAt: 2026-01-28T17:04:03.198413300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_i8Grrmz6qa
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: g7e4rGEWxh
+- enabled: true
+  name: Accept
+  value: application/json
+  id: qp6xj5yekQ
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: yhNyMXz2UX
+- enabled: true
+  name: ''
+  value: ''
+  id: EIMRIQ0MU5
+method: POST
+name: Get seller contacts Endpoints
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/normal-ads/16/contact
+urlParameters: []

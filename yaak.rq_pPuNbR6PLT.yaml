@@ -1,0 +1,46 @@
+type: http_request
+model: http_request
+id: rq_pPuNbR6PLT
+createdAt: 2026-01-28T20:55:48.776408600
+updatedAt: 2026-01-28T21:31:32.887656500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_yNTezMkBLD
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: null
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List published unique ads (public)
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/unique-ads
+urlParameters:
+- enabled: false
+  name: limit
+  value: '10'
+  id: Ci4CV2viVf
+- enabled: false
+  name: page
+  value: '1'
+  id: ZgXhkqBgpD
+- enabled: false
+  name: featured_only
+  value: '1'
+  id: CRpsmYgeaf
+- enabled: false
+  name: brand_id
+  value: '1'
+  id: yIaYk0eWUu
+- enabled: true
+  name: ''
+  value: ''
+  id: ugvRvNJqPv

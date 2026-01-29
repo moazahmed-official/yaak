@@ -1,0 +1,43 @@
+type: http_request
+model: http_request
+id: rq_t3SaTFftkL
+createdAt: 2026-01-28T17:00:06.174140200
+updatedAt: 2026-01-28T17:00:59.017067800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_qP6gqeC439
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "action": "publish",
+        "ad_ids": [16, 17, 18,19]
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: 3cwpvArwc9
+- enabled: true
+  name: Accept
+  value: application/json
+  id: h8qEUvU6Wj
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: NwZ7IV474q
+- enabled: true
+  name: Authorization
+  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  id: dHEs8BIsQj
+- enabled: true
+  name: ''
+  value: ''
+  id: 5ETt0Rk7Us
+method: POST
+name: Group Actions
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/normal-ads/actions/bulk
+urlParameters: []
