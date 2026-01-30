@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_WZdMds9yAF
+createdAt: 2026-01-30T14:25:16.790205700
+updatedAt: 2026-01-30T14:25:47.218595800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_x6mC6dn6aZ
+authentication: {}
+authenticationType: null
+body:
+  text: '{"value":"129600"}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: jHGwBri9W2
+- enabled: true
+  name: Accept
+  value: application/json
+  id: rJTASfrpc7
+- enabled: true
+  name: Authorization
+  value: Bearer 31|k22UJu3dzMPcYTzXCzUIf7K4Sc3O0ruamNljucI513780bf9
+  id: qcztEPEEtG
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: zXd0QRFPtI
+- enabled: true
+  name: ''
+  value: ''
+  id: m8n6k83QFI
+method: PUT
+name: Update Single Setting
+sortPriority: -1769553642986.995
+url: http://localhost:8000/api/v1/caishha-settings/default_dealer_window_seconds
+urlParameters: []

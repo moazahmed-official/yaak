@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_7WSdQaiWZV
+createdAt: 2026-01-30T14:22:00.169325700
+updatedAt: 2026-01-30T14:23:22.188107200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_x6mC6dn6aZ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: STsawVRq7b
+- enabled: true
+  name: Accept
+  value: application/json
+  id: bf9FqbxgHH
+- enabled: true
+  name: Authorization
+  value: Bearer 31|k22UJu3dzMPcYTzXCzUIf7K4Sc3O0ruamNljucI513780bf9
+  id: GNgcZWHQJY
+- enabled: true
+  name: ''
+  value: ''
+  id: Ik0xRjhWdn
+method: GET
+name: See Caishha Settings
+sortPriority: -1769553642986.995
+url: http://localhost:8000/api/v1/caishha-settings
+urlParameters: []

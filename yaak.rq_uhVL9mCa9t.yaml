@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_uhVL9mCa9t
+createdAt: 2026-01-30T13:01:24.411060500
+updatedAt: 2026-01-30T13:01:46.716586900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_EcRE7KeCPF
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: nTVhvDIzE9
+- enabled: true
+  name: Accept
+  value: application/json
+  id: vsTvfcKysP
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: 4b6AwUw9Ix
+- enabled: true
+  name: ''
+  value: ''
+  id: BrV5G9EGSt
+method: GET
+name: List all my offers
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/caishha-offers/my-offers
+urlParameters: []

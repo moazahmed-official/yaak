@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_NLtK4q4VPB
+createdAt: 2026-01-29T03:00:37.905506800
+updatedAt: 2026-01-29T03:12:16.138640100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_DhuhUXFomq
+authentication: {}
+authenticationType: null
+body:
+  text: '{"title":"Honda Civic 2016 - Updated","offers_window_period":172800}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: rwGqIemVA5
+- enabled: true
+  name: Accept
+  value: application/json
+  id: V4XdIsQqzD
+- enabled: true
+  name: Authorization
+  value: Bearer 22|2Sj28tjBBbdxzh6RVp1ljqGAfV9fQdySvD14Vu6Tec7339c8
+  id: Kw2krtE7he
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: Se9tyiCz2w
+- enabled: true
+  name: ''
+  value: ''
+  id: XFrF0iJ7Ec
+method: PUT
+name: Update Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/caishha-ads/26
+urlParameters: []

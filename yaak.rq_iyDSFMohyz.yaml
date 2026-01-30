@@ -1,0 +1,52 @@
+type: http_request
+model: http_request
+id: rq_iyDSFMohyz
+createdAt: 2026-01-29T02:55:31.320087900
+updatedAt: 2026-01-30T14:16:03.808497
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_DhuhUXFomq
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+    "title":"Honda Civic 2016",
+    "description":"Well maintained",
+    "category_id":1,
+    "city_id":1,
+    "country_id":1,
+    "brand_id":1,
+    "model_id":4,
+    "year":2016,
+    "offers_window_period":86400,
+    "sellers_visibility_period":86400,
+    "media_ids":[1,2]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: huxHVIwFtG
+- enabled: true
+  name: Accept
+  value: application/json
+  id: GyYCAKxx33
+- enabled: true
+  name: Authorization
+  value: Bearer 30|MUGp9HWJ6Yr3RZJQaqfkTp9ot272wClx7OGnA1R288670c3f
+  id: W73W9pYuWd
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: eyNc6r8AjR
+- enabled: true
+  name: ''
+  value: ''
+  id: eA5Mf030yF
+method: POST
+name: Create Caishha Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/caishha-ads
+urlParameters: []

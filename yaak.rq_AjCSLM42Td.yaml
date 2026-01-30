@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_AjCSLM42Td
+createdAt: 2026-01-30T14:13:28.271726600
+updatedAt: 2026-01-30T14:14:09.328061900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_EcRE7KeCPF
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: XIKTFkTApN
+- enabled: true
+  name: Accept
+  value: application/json
+  id: AtE9eXJ4az
+- enabled: true
+  name: Authorization
+  value: Bearer 28|7Q0G6oaTIkeJ4EPBSj8saRl49ILjbhRhHZCLdt9w4bd8d33d
+  id: CQMk8xPax2
+- enabled: true
+  name: ''
+  value: ''
+  id: IcKsmAFWNw
+method: POST
+name: Reject offer
+sortPriority: -1769774159635.999
+url: http://localhost:8000/api/v1/caishha-ads/27/offers/6/reject
+urlParameters: []

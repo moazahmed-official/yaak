@@ -1,0 +1,45 @@
+type: http_request
+model: http_request
+id: rq_PKPTYpJwfB
+createdAt: 2026-01-30T14:23:25.457882900
+updatedAt: 2026-01-30T14:25:13.149009700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_x6mC6dn6aZ
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+    "settings":[
+    {"key":"default_dealer_window_seconds","value":"86400"},
+    {"key":"default_visibility_period_seconds","value":"172800"}
+    ]
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: BDZj52WRST
+- enabled: true
+  name: Accept
+  value: application/json
+  id: CNTh6IJrkk
+- enabled: true
+  name: Authorization
+  value: Bearer 31|k22UJu3dzMPcYTzXCzUIf7K4Sc3O0ruamNljucI513780bf9
+  id: wmqivZkdju
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: vgjpK4IDhB
+- enabled: true
+  name: ''
+  value: ''
+  id: CqViaikA3c
+method: PUT
+name: Update all Caishha settings
+sortPriority: -1769553642986.995
+url: http://localhost:8000/api/v1/caishha-settings
+urlParameters: []

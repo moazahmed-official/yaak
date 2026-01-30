@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_UoXDNY2SvB
+createdAt: 2026-01-29T03:17:53.306565
+updatedAt: 2026-01-29T03:21:05.854928500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_DhuhUXFomq
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: VnbaY77DRB
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 9hICBJIYcB
+- enabled: true
+  name: Authorization
+  value: Bearer 22|2Sj28tjBBbdxzh6RVp1ljqGAfV9fQdySvD14Vu6Tec7339c8
+  id: FBdDSbbMkJ
+- enabled: true
+  name: ''
+  value: ''
+  id: DT5jd48yUY
+method: DELETE
+name: Delete Ad
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/caishha-ads/28
+urlParameters: []

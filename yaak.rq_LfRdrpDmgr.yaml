@@ -1,0 +1,44 @@
+type: http_request
+model: http_request
+id: rq_LfRdrpDmgr
+createdAt: 2026-01-30T11:55:59.639606300
+updatedAt: 2026-01-30T14:13:03.271437500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_EcRE7KeCPF
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+    "price":15000,
+    "message":"Can pick up tomorrow",
+    "is_visible_to_seller":1
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: AJ8wgqmsQq
+- enabled: true
+  name: Accept
+  value: application/json
+  id: wprueuw9C9
+- enabled: true
+  name: Authorization
+  value: Bearer 27|RGQVM9ibZXBjtrUn2ynz5QET1YKJVslXY0SDrdWO0dd0650d
+  id: k8zKVuJhFQ
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: XQnpCzeqif
+- enabled: true
+  name: ''
+  value: ''
+  id: wjCrEcIiQY
+method: POST
+name: Submit Offer
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/caishha-ads/31/offers
+urlParameters: []

@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_MWUZMtS5FX
+createdAt: 2026-01-30T11:08:05.054595800
+updatedAt: 2026-01-30T14:16:50.060860700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_DhuhUXFomq
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: gb6WrFyKs4
+- enabled: true
+  name: Accept
+  value: application/json
+  id: qCYpdM9z27
+- enabled: true
+  name: Authorization
+  value: Bearer 30|MUGp9HWJ6Yr3RZJQaqfkTp9ot272wClx7OGnA1R288670c3f
+  id: qFCPgeEXJn
+- enabled: true
+  name: ''
+  value: ''
+  id: cI6hGCrUmg
+method: GET
+name: List User Ads
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/caishha-ads/my-ads
+urlParameters: []

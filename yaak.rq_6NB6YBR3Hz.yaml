@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_6NB6YBR3Hz
+createdAt: 2026-01-29T02:54:16.799693800
+updatedAt: 2026-01-30T12:12:15.584080200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_DhuhUXFomq
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Show ad details
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/caishha-ads/31
+urlParameters: []

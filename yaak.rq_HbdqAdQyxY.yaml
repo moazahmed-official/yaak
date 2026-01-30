@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_HbdqAdQyxY
+createdAt: 2026-01-30T15:17:36.066366600
+updatedAt: 2026-01-30T15:18:11.616135500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_EcRE7KeCPF
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: 002Tut3pcs
+- enabled: true
+  name: ''
+  value: ''
+  id: sWhJkGfyPn
+method: GET
+name: See Offer Details
+sortPriority: -1769553642986.992
+url: http://localhost:8000/api/v1/caishha-offers/4
+urlParameters: []

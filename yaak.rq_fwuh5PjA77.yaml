@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_fwuh5PjA77
+createdAt: 2026-01-29T02:47:11.949341100
+updatedAt: 2026-01-30T14:14:36.246586300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_DhuhUXFomq
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: null
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List Active Caishha
+sortPriority: -1769553642986.999
+url: http://localhost:8000/api/v1/caishha-ads
+urlParameters: []

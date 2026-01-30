@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_aqwFMiQiAK
+createdAt: 2026-01-30T14:52:24.586070500
+updatedAt: 2026-01-30T14:52:37.515084500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_x6mC6dn6aZ
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: PNyAjDb9uT
+- enabled: true
+  name: Accept
+  value: application/json
+  id: T3uCY96qJw
+- enabled: true
+  name: Authorization
+  value: Bearer 31|k22UJu3dzMPcYTzXCzUIf7K4Sc3O0ruamNljucI513780bf9
+  id: aITCdW26Cs
+- enabled: true
+  name: ''
+  value: ''
+  id: UQMBAbYetz
+method: GET
+name: Update Single Setting Copy
+sortPriority: -1769553642986.994
+url: http://localhost:8000/api/v1/caishha-settings/presets
+urlParameters: []
