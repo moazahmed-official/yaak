@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_R5SEnxAeoJ
-createdAt: 2026-01-31T13:38:44.790546900
-updatedAt: 2026-01-31T15:20:11.071195500
+id: rq_5UcTqA7Fk7
+createdAt: 2026-01-31T19:03:29.644931100
+updatedAt: 2026-01-31T19:19:35.078655400
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_JF36vB5grG
+folderId: fl_XvDUG3WCYb
 authentication: {}
 authenticationType: null
 body: {}
@@ -17,10 +17,10 @@ headers:
   id: null
 - enabled: true
   name: Authorization
-  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  value: Bearer 4|wrtCvSB6lQn20CWclSAqhi4H0mx9dmPgKRAtZzUe6eff0f6c
   id: null
 method: POST
-name: Close Auction
+name: Refresh Match
 sortPriority: -1769774159636.0
-url: http://localhost:8000/api/v1/auction-ads/51/actions/close
+url: http://localhost:8000/api/v1/findit-ads/17/refresh-matches
 urlParameters: []

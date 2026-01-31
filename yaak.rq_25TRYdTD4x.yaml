@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_25TRYdTD4x
+createdAt: 2026-01-31T20:08:08.641880800
+updatedAt: 2026-01-31T20:11:21.773280900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_V7oJaXmYaK
+authentication: {}
+authenticationType: null
+body:
+  text: '{"action": "delete", "ids": [14, 15, 16 , 17]}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 4|wrtCvSB6lQn20CWclSAqhi4H0mx9dmPgKRAtZzUe6eff0f6c
+  id: null
+method: POST
+name: ''
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/findit-ads/actions/bulk
+urlParameters: []

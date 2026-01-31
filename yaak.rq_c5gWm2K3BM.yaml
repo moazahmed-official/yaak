@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_c5gWm2K3BM
+createdAt: 2026-01-31T19:00:37.777312500
+updatedAt: 2026-01-31T19:00:58.322316900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_XvDUG3WCYb
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title": "Looking for Toyota Camry 2023-2024",
+        "max_price": 50000,
+        "min_year": 2023,
+        "color": "silver"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 1|3Kjk14OXSzvASFht3pyGH9CxuxlVrLTUioDAM7LH0948945b
+  id: null
+method: PUT
+name: Update find it request
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/findit-ads/1
+urlParameters: []

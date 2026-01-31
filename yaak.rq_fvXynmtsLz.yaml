@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_fvXynmtsLz
 createdAt: 2026-01-30T16:40:21.364544200
-updatedAt: 2026-01-31T13:53:05.322430100
+updatedAt: 2026-01-31T18:44:07.153462
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_JF36vB5grG
 authentication: {}
@@ -43,7 +43,7 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: SIVt0bhhek
+  id: waVpviJ7CW
 method: POST
 name: Create Auction
 sortPriority: -1769774159636.0

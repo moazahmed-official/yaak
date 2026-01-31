@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_R5SEnxAeoJ
-createdAt: 2026-01-31T13:38:44.790546900
-updatedAt: 2026-01-31T15:20:11.071195500
+id: rq_EzmTzLiQg2
+createdAt: 2026-01-31T18:58:24.444237500
+updatedAt: 2026-01-31T18:58:44.974539600
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_JF36vB5grG
+folderId: fl_V7oJaXmYaK
 authentication: {}
 authenticationType: null
 body: {}
@@ -17,10 +17,10 @@ headers:
   id: null
 - enabled: true
   name: Authorization
-  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  value: Bearer 1|3Kjk14OXSzvASFht3pyGH9CxuxlVrLTUioDAM7LH0948945b
   id: null
-method: POST
-name: Close Auction
+method: GET
+name: Get Find It requests
 sortPriority: -1769774159636.0
-url: http://localhost:8000/api/v1/auction-ads/51/actions/close
+url: http://localhost:8000/api/v1/findit-ads/stats
 urlParameters: []

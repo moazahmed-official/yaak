@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_R6dBzT2wpT
+createdAt: 2026-01-31T18:57:05.004583700
+updatedAt: 2026-01-31T18:57:47.027924300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_V7oJaXmYaK
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 1|3Kjk14OXSzvASFht3pyGH9CxuxlVrLTUioDAM7LH0948945b
+  id: null
+method: GET
+name: List all Find It Ads
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/findit-ads/admin
+urlParameters:
+- enabled: false
+  name: per_page
+  value: '15'
+  id: yv5DZy9xbR
+- enabled: false
+  name: status
+  value: active
+  id: besm7hxM6z
+- enabled: false
+  name: user_id
+  value: '5'
+  id: 4qvNty0E2A
+- enabled: true
+  name: ''
+  value: ''
+  id: QEipcdpsyS

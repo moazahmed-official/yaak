@@ -1,0 +1,31 @@
+type: http_request
+model: http_request
+id: rq_QfCQCr7EX5
+createdAt: 2026-01-31T19:54:59.015803100
+updatedAt: 2026-01-31T19:55:32.479627900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_XvDUG3WCYb
+authentication: {}
+authenticationType: null
+body:
+  text: '{"days": 60}'
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 4|wrtCvSB6lQn20CWclSAqhi4H0mx9dmPgKRAtZzUe6eff0f6c
+  id: null
+method: POST
+name: Reactivate with custom expire date
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/findit-ads/16/reactivate
+urlParameters: []
