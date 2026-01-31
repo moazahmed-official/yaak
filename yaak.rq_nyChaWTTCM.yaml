@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_nyChaWTTCM
+createdAt: 2026-01-31T13:26:09.424721
+updatedAt: 2026-01-31T13:34:42.375055700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_JF36vB5grG
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title": "Updated Vintage Watch Collection",
+        "description": "Beautiful vintage Rolex watch in excellent condition - Updated",
+        "start_price": 55000,
+        "minimum_bid_increment": 1000
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: null
+method: PUT
+name: Update Ad
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/auction-ads/43
+urlParameters: []

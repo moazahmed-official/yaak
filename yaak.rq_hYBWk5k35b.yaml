@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_hYBWk5k35b
 createdAt: 2026-01-26T23:46:07.096852
-updatedAt: 2026-01-27T15:22:26.430364900
+updatedAt: 2026-01-31T13:44:57.875375
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_hXhuavtRHr
 authentication: {}
@@ -11,7 +11,7 @@ body:
   text: |-
     {
         "name": "Moaz Ahmed Test",
-        "email": "moaz2@example.com",
+        "email": "test@example.com",
         "phone": "01015036255",
         "country_id": 1,
         "account_type": "individual",

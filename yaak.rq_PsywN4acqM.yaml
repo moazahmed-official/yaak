@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_uhVL9mCa9t
-createdAt: 2026-01-30T13:01:24.411060500
-updatedAt: 2026-01-30T16:40:32.178387900
+id: rq_PsywN4acqM
+createdAt: 2026-01-30T17:07:32.932483400
+updatedAt: 2026-01-30T17:09:15.803897200
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_EcRE7KeCPF
+folderId: fl_JF36vB5grG
 authentication: {}
 authenticationType: null
 body: {}
@@ -12,23 +12,19 @@ bodyType: null
 description: ''
 headers:
 - enabled: true
-  name: User-Agent
-  value: yaak
-  id: nTVhvDIzE9
-- enabled: true
   name: Accept
   value: application/json
-  id: vsTvfcKysP
+  id: jSKyWaufq7
 - enabled: true
   name: Authorization
   value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
-  id: 4b6AwUw9Ix
+  id: ScxRTihzSa
 - enabled: true
   name: ''
   value: ''
-  id: RNttDXk0XF
+  id: N9GEZpixPM
 method: GET
-name: List all my offers
+name: List all Auctions
 sortPriority: -1769774159636.0
-url: http://localhost:8000/api/v1/caishha-offers/my-offers
+url: http://localhost:8000/api/v1/auction-ads
 urlParameters: []

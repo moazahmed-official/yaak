@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_2YRQznENQw
+createdAt: 2026-01-31T13:59:43.211606800
+updatedAt: 2026-01-31T14:00:28.712830100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_KsRxbFbYDP
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: null
+method: GET
+name: See Bid details
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/auction-ads/51/bids/3
+urlParameters: []

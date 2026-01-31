@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_KwxtWcs9XX
+createdAt: 2026-01-31T13:55:51.565320300
+updatedAt: 2026-01-31T13:58:49.995983600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_KsRxbFbYDP
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: DnpcphmQuQ
+- enabled: true
+  name: Authorization
+  value: Bearer 33|5nocNosR7gcoqFxiQziJJHe1hHipMITedJXLLGNhe7ad51f1
+  id: y0jSirAhVm
+- enabled: true
+  name: ''
+  value: ''
+  id: Bn9nt9kDvD
+method: GET
+name: List all Auction Bids
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/auction-ads/51/bids
+urlParameters: []

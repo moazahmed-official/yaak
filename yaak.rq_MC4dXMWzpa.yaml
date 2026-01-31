@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_MC4dXMWzpa
+createdAt: 2026-01-31T13:43:31.129730300
+updatedAt: 2026-01-31T13:55:12.529243700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_KsRxbFbYDP
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "price": 59000,
+        "comment": "I really want this vintage watch for my collection!"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: xkq7iWTyBZ
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: UYaGEdGk4q
+- enabled: true
+  name: Authorization
+  value: Bearer 32|bLxJ2TDs1CvHvgctm3uhfnVCHRJQfSy79VPNMYpBa9504105
+  id: gKjXUzbhB4
+- enabled: true
+  name: ''
+  value: ''
+  id: tp5ywW6hKk
+method: POST
+name: Create a Bid for Auction
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/auction-ads/51/bids
+urlParameters: []

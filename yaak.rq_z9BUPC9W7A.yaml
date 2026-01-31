@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_z9BUPC9W7A
+createdAt: 2026-01-31T14:04:19.529864600
+updatedAt: 2026-01-31T14:04:59.808531500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_KsRxbFbYDP
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: null
+method: GET
+name: List Bids with Pagination
+sortPriority: 0.0
+url: http://localhost:8000/api/v1/auction-ads/51/bids
+urlParameters:
+- enabled: true
+  name: per_page
+  value: '10'
+  id: null
+- enabled: true
+  name: page
+  value: '1'
+  id: null

@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_me7PbTKkme
+createdAt: 2026-01-31T13:35:02.105471500
+updatedAt: 2026-01-31T13:38:19.574441300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_JF36vB5grG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: null
+method: DELETE
+name: Delete Auction
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/auction-ads/49
+urlParameters: []

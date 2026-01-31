@@ -1,0 +1,51 @@
+type: http_request
+model: http_request
+id: rq_fvXynmtsLz
+createdAt: 2026-01-30T16:40:21.364544200
+updatedAt: 2026-01-31T13:53:05.322430100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_JF36vB5grG
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title": "Vintage Watch Collection",
+        "description": "Beautiful vintage Rolex watch in excellent condition",
+        "category_id": 1,
+        "country_id": 1,
+        "city_id": 1,
+        "brand_id": 1,
+        "model_id":4,
+        "year":2019,
+        "start_price": 50000,
+        "minimum_bid_increment": 500,
+        "start_time": "2026-01-31T15:53:00Z",
+        "end_time": "2026-02-07T10:00:00Z",
+        "anti_snip_window_seconds": 300,
+        "anti_snip_extension_seconds": 300
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: Kg2U7qJM88
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: AARamCNcyw
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: pTiPIrNKm4
+- enabled: true
+  name: ''
+  value: ''
+  id: SIVt0bhhek
+method: POST
+name: Create Auction
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/auction-ads
+urlParameters: []

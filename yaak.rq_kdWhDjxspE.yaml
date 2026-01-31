@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_kdWhDjxspE
+createdAt: 2026-01-31T13:41:09.253513
+updatedAt: 2026-01-31T13:41:59.709866500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_JF36vB5grG
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "reason": "Item no longer available for auction"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+- enabled: true
+  name: Authorization
+  value: Bearer 26|uoW9jFIS3eevyoQSvFAgVGbmyz63uJRordVDJy8Cf5218bd4
+  id: null
+method: POST
+name: Cancel Auction
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/auction-ads/50/actions/cancel
+urlParameters: []
