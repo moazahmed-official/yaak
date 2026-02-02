@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_yFPDGXizQy
+createdAt: 2026-02-02T14:50:32.534054200
+updatedAt: 2026-02-02T14:50:45.896476700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_WAZ8YhUyan
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List all Packages
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages
+urlParameters: []

@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_JnBD9fTNsi
+createdAt: 2026-02-01T14:20:58.793851800
+updatedAt: 2026-02-01T14:57:54.946997700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "target_type": "ad",
+        "target_id": 2,
+        "stars": 5,
+        "title": "Great car!",
+        "body": "Excellent condition"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 8|KwETzupmzZa8nnl4LmnBiwfoZe62sFS9jRcGOU8ve14de0a2
+  id: XgqBmHxR77
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: qBd4xQJWEB
+- enabled: true
+  name: ''
+  value: ''
+  id: AQXPvHDbRI
+method: POST
+name: Create a Review for Ad
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews
+urlParameters: []

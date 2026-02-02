@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_ArEWesihbz
+createdAt: 2026-02-01T15:19:18.662087500
+updatedAt: 2026-02-02T14:14:41.495323400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_8MAV6sVN3K
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: aC6syGrG4B
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: X0zKNUwKb3
+- enabled: true
+  name: ''
+  value: ''
+  id: fqwcz8Rq4Y
+method: GET
+name: Get my Reports
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reports/my-reports
+urlParameters: []

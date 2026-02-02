@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_2ao3tc8U3s
+createdAt: 2026-02-02T14:59:19.086408400
+updatedAt: 2026-02-02T15:00:01.380582800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "user_id": 2,
+        "starts_at": "2026-02-01",
+        "payment_method": "credit_card",
+        "payment_reference": "TXN123456"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: MWBdfsjbQN
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: dr4QZTc7QG
+- enabled: true
+  name: Accept
+  value: application/json
+  id: tb5Vzu8034
+- enabled: true
+  name: ''
+  value: ''
+  id: g7aATt6WBd
+method: POST
+name: Assign Package to user
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/3/assign
+urlParameters: []

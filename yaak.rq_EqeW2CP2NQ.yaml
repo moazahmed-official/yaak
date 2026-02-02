@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_EqeW2CP2NQ
+createdAt: 2026-02-01T14:58:32.127151400
+updatedAt: 2026-02-01T14:59:06.046801
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 0eCXdPQ8MU
+- enabled: true
+  name: Authorization
+  value: Bearer 8|KwETzupmzZa8nnl4LmnBiwfoZe62sFS9jRcGOU8ve14de0a2
+  id: 5IKqkUZ3wj
+- enabled: true
+  name: ''
+  value: ''
+  id: AMf6vxDw6x
+method: GET
+name: Get my reviews
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews/my-reviews
+urlParameters: []

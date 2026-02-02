@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_oXzhb4yWUf
+createdAt: 2026-02-02T15:03:03.967705700
+updatedAt: 2026-02-02T15:03:37.494849600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "ends_at": "2026-03-15"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: fnIUGdAbWs
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: fa5iis73Es
+- enabled: true
+  name: Accept
+  value: application/json
+  id: v959p6xjCS
+- enabled: true
+  name: ''
+  value: ''
+  id: I4nt908f4V
+method: PUT
+name: Update user Package
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/user-packages/1
+urlParameters: []

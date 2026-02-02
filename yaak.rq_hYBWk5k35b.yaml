@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_hYBWk5k35b
 createdAt: 2026-01-26T23:46:07.096852
-updatedAt: 2026-01-31T13:44:57.875375
+updatedAt: 2026-02-02T14:12:37.729397700
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_hXhuavtRHr
 authentication: {}
@@ -11,8 +11,8 @@ body:
   text: |-
     {
         "name": "Moaz Ahmed Test",
-        "email": "test@example.com",
-        "phone": "01015036255",
+        "email": "user@example.com",
+        "phone": "01015036266",
         "country_id": 1,
         "account_type": "individual",
         "password": "password"
@@ -26,7 +26,7 @@ headers:
   id: rCYFtWdA9K
 - enabled: true
   name: Authorization
-  value: Bearer 4|AlNShNZ78zEW48czBqFKaEF18UNGm7OtREfzIaC4bafe9395
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
   id: UDPz0TniRP
 - enabled: true
   name: Content-Type
@@ -35,7 +35,7 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: pp4fD2ivev
+  id: fpSEkEuhaS
 method: POST
 name: Create a new user
 sortPriority: 2000.0

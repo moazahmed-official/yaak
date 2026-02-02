@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_qYDpLnTVKG
+createdAt: 2026-02-02T15:02:16.310614200
+updatedAt: 2026-02-02T15:02:40.874886500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: d562zdbskx
+- enabled: true
+  name: Accept
+  value: application/json
+  id: sFwYVR6iAq
+- enabled: true
+  name: ''
+  value: ''
+  id: CVYinXAQ0e
+method: GET
+name: Show User Packages
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/users/2/packages
+urlParameters: []

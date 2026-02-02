@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_7oBWRue7Du
+createdAt: 2026-02-02T14:58:30.068466400
+updatedAt: 2026-02-02T14:58:47.328218100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: qbq9MfnrbR
+- enabled: true
+  name: Accept
+  value: application/json
+  id: wiD7sJQiPP
+- enabled: true
+  name: ''
+  value: ''
+  id: VX9NyYTVt6
+method: DELETE
+name: Delete Package
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/1
+urlParameters: []

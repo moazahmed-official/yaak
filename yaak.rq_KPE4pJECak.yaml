@@ -1,0 +1,63 @@
+type: http_request
+model: http_request
+id: rq_KPE4pJECak
+createdAt: 2026-02-02T16:00:44.499007200
+updatedAt: 2026-02-02T16:52:57.613088800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "normal_ads_allowed": true,
+        "normal_ads_limit": 20,
+        "unique_ads_allowed": true,
+        "unique_ads_limit": 5,
+        "caishha_ads_allowed": true,
+        "caishha_ads_limit": 10,
+        "findit_ads_allowed": true,
+        "findit_ads_limit": 3,
+        "auction_ads_allowed": false,
+        "auction_ads_limit": 0,
+        "grants_seller_status": true,
+        "auto_verify_seller": false,
+        "grants_marketer_status": false,
+        "grants_verified_badge": false,
+        "can_push_to_facebook": true,
+        "can_auto_republish": true,
+        "can_use_banner": true,
+        "can_use_background_color": false,
+        "can_bulk_upload": false,
+        "images_per_ad_limit": 15,
+        "videos_per_ad_limit": 2,
+        "ad_duration_days": 45,
+        "max_ad_duration_days": 90,
+        "can_extend_ads": true,
+        "priority_support": false,
+        "featured_in_search": false
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: b0VUaUYZaw
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: Bev8x3sdh7
+- enabled: true
+  name: Accept
+  value: application/json
+  id: G8M4DeCnEb
+- enabled: true
+  name: ''
+  value: ''
+  id: 3BQiQS6rjS
+method: POST
+name: Assign Package Features
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/4/features
+urlParameters: []

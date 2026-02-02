@@ -1,0 +1,34 @@
+type: http_request
+model: http_request
+id: rq_pz5VQWj6ut
+createdAt: 2026-02-01T15:22:36.785498300
+updatedAt: 2026-02-02T14:52:24.470784700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RJVfgH2oDR
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: User-Agent
+  value: yaak
+  id: gdCYK7pvqa
+- enabled: true
+  name: Accept
+  value: application/json
+  id: X4uWkggK8f
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: JkKS2aFJha
+- enabled: true
+  name: ''
+  value: ''
+  id: qa2PEi0ijb
+method: GET
+name: List all Reports
+sortPriority: -1769959356783.0
+url: http://localhost:8000/api/v1/reports/admin/index
+urlParameters: []

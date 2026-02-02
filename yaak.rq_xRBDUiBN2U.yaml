@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_xRBDUiBN2U
+createdAt: 2026-02-02T18:05:22.486555500
+updatedAt: 2026-02-02T18:06:24.734760300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_nPoyewmsUY
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: qPGXj7HvQr
+- enabled: true
+  name: Accept
+  value: application/json
+  id: VxF3ZjSTKv
+- enabled: true
+  name: ''
+  value: ''
+  id: zE8v27PUxa
+method: POST
+name: Add Ad to Favorites
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/favorites/1
+urlParameters: []

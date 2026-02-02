@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_5EhdyhfAvN
+createdAt: 2026-02-02T17:59:52.574775600
+updatedAt: 2026-02-02T18:01:32.269389700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_nPoyewmsUY
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: 3uZTUzVb4i
+- enabled: true
+  name: Accept
+  value: application/json
+  id: gbbm4PbPfh
+- enabled: true
+  name: ''
+  value: ''
+  id: 66bvKRbPps
+method: GET
+name: List all Favorites
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/favorites
+urlParameters: []

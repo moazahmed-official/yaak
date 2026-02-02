@@ -1,0 +1,40 @@
+type: http_request
+model: http_request
+id: rq_u5YWwGPR5e
+createdAt: 2026-02-01T15:05:24.441597800
+updatedAt: 2026-02-01T15:07:53.972097700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title": "Updated: Great experience!",
+        "body": "After using it for a week, I am even more satisfied. The product exceeded my expectations!",
+        "stars": 5
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: ChJf9P4McK
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 82pHdxHf9F
+- enabled: true
+  name: Authorization
+  value: Bearer 8|KwETzupmzZa8nnl4LmnBiwfoZe62sFS9jRcGOU8ve14de0a2
+  id: gEEfagHf0d
+- enabled: true
+  name: ''
+  value: ''
+  id: UBnFDgdHYr
+method: PUT
+name: Update a Review
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews/1
+urlParameters: []

@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_Qi3kC3zkXk
+createdAt: 2026-02-02T18:11:45.355507300
+updatedAt: 2026-02-02T18:12:15.819944800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_nPoyewmsUY
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: Zv3QBsmXq6
+- enabled: true
+  name: Accept
+  value: application/json
+  id: y5wZet4jX6
+- enabled: true
+  name: ''
+  value: ''
+  id: 4ecmPC6E24
+method: DELETE
+name: Remove Favorite by Ad ID
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/favorites/ad/1
+urlParameters: []

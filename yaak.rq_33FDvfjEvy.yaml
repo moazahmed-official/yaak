@@ -1,0 +1,41 @@
+type: http_request
+model: http_request
+id: rq_33FDvfjEvy
+createdAt: 2026-02-02T16:02:05.165111100
+updatedAt: 2026-02-02T16:02:32.584219800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "normal_ads_limit": 25,
+        "unique_ads_limit": 10,
+        "can_push_to_facebook": false,
+        "images_per_ad_limit": 20
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: 9iXMu68ckt
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: c2EYNKBD2n
+- enabled: true
+  name: Accept
+  value: application/json
+  id: nA4BdRtwCZ
+- enabled: true
+  name: ''
+  value: ''
+  id: QubRaVnKrq
+method: PUT
+name: Update Package Features
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/4/features
+urlParameters: []

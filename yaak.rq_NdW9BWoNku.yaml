@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_NdW9BWoNku
+createdAt: 2026-02-01T14:13:28.542293600
+updatedAt: 2026-02-01T14:13:40.523044900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List Reviews with pagination
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews
+urlParameters:
+- enabled: true
+  name: page
+  value: '2'
+  id: null
+- enabled: true
+  name: limit
+  value: '25'
+  id: null

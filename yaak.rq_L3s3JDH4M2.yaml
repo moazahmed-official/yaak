@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_L3s3JDH4M2
+createdAt: 2026-02-02T15:00:21.842508800
+updatedAt: 2026-02-02T16:51:27.540285800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_WAZ8YhUyan
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 3|E9VaD8EHIYXOU2W8GKyVyY5K5BrBqPXB3yO6ti2Aa827dd70
+  id: qkrejQ5nK6
+- enabled: true
+  name: Accept
+  value: application/json
+  id: eAjPmzCkv9
+- enabled: true
+  name: ''
+  value: ''
+  id: fN8aMPKW6Y
+method: GET
+name: See my Package
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/my-packages
+urlParameters: []

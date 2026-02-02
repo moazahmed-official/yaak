@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_bFE9ku9zB4
+createdAt: 2026-02-01T14:57:27.915459800
+updatedAt: 2026-02-01T14:58:04.725463900
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "target_type": "seller",
+        "target_id": 2,
+        "title": "Professional seller",
+        "body": "Very responsive and helpful throughout the transaction. Would buy from again!",
+        "stars": 4
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: eWMFAVWqt8
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: p0gMDxewwE
+- enabled: true
+  name: Authorization
+  value: Bearer 8|KwETzupmzZa8nnl4LmnBiwfoZe62sFS9jRcGOU8ve14de0a2
+  id: eEFvQj6qRx
+- enabled: true
+  name: ''
+  value: ''
+  id: 0F6w26Q2hg
+method: POST
+name: Create Review for seller
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews
+urlParameters: []

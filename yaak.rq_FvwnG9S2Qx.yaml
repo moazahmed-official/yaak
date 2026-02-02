@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_FvwnG9S2Qx
+createdAt: 2026-02-02T18:07:33.007639800
+updatedAt: 2026-02-02T18:08:49.688875700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_nPoyewmsUY
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: aTs0f4fBJK
+- enabled: true
+  name: Accept
+  value: application/json
+  id: g47jeyYI2B
+- enabled: true
+  name: ''
+  value: ''
+  id: aPWQS6cPKQ
+method: POST
+name: Toggle Favorite stat
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/favorites/toggle/1
+urlParameters: []

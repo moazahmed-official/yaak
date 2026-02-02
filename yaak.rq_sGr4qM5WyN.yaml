@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_sGr4qM5WyN
+createdAt: 2026-02-01T15:08:10.605387900
+updatedAt: 2026-02-01T15:11:40.355704100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: kzxxPSvvvj
+- enabled: true
+  name: Authorization
+  value: Bearer 8|KwETzupmzZa8nnl4LmnBiwfoZe62sFS9jRcGOU8ve14de0a2
+  id: 4v4n3Thk8F
+- enabled: true
+  name: ''
+  value: ''
+  id: BfxvCTUSjK
+method: DELETE
+name: Delete a Review
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews/2
+urlParameters: []

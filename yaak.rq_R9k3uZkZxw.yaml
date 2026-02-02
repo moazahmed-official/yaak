@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_R9k3uZkZxw
+createdAt: 2026-02-01T14:08:04.799657400
+updatedAt: 2026-02-01T14:46:20.986895100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List Reviews by Ad id
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews
+urlParameters:
+- enabled: true
+  name: ad_id
+  value: '3'
+  id: mw3GgCr8zS
+- enabled: true
+  name: ''
+  value: ''
+  id: 6KApmt6TCn

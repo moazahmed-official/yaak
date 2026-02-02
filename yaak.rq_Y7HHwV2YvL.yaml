@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_Y7HHwV2YvL
+createdAt: 2026-02-02T14:57:42.400919700
+updatedAt: 2026-02-02T14:58:14.394859200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "price": 89.99
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: 7BYST66xuN
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: 2JwMWJmF7a
+- enabled: true
+  name: Accept
+  value: application/json
+  id: SG4DpQHPcH
+- enabled: true
+  name: ''
+  value: ''
+  id: yGI9GZtDV0
+method: PUT
+name: Update Package
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/4
+urlParameters: []

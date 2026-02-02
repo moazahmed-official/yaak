@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_wETvXB5rqT
+createdAt: 2026-02-02T17:44:48.282475200
+updatedAt: 2026-02-02T17:53:17.216799200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_z95ypM9iKb
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: sbXz3BXYdK
+- enabled: true
+  name: Accept
+  value: application/json
+  id: EEH6yteFdd
+- enabled: true
+  name: ''
+  value: ''
+  id: M3XMHxNBK5
+method: PATCH
+name: Mask Notification as read
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/notifications/7f92c4f8-9159-45bd-9c32-8ba5ba0c50e0/read
+urlParameters: []

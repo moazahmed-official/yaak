@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_gfFw28kwwi
+createdAt: 2026-02-02T18:04:11.638932300
+updatedAt: 2026-02-02T18:04:51.340656500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_nPoyewmsUY
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: KK6zkxDHzi
+- enabled: true
+  name: Accept
+  value: application/json
+  id: pp7jBIyU2Q
+- enabled: true
+  name: ''
+  value: ''
+  id: n8hijntXMC
+method: GET
+name: Check if Ad Favorited
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/favorites/check/1
+urlParameters: []

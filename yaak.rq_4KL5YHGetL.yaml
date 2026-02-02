@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_4KL5YHGetL
+createdAt: 2026-02-01T14:08:57.505523600
+updatedAt: 2026-02-01T14:54:30.104037500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: List Reviews by user id
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews
+urlParameters:
+- enabled: true
+  name: seller_id
+  value: '2'
+  id: E3r32kzVU3
+- enabled: true
+  name: ''
+  value: ''
+  id: 74bwrv4nBY

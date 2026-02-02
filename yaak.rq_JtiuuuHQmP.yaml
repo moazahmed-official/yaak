@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_JtiuuuHQmP
+createdAt: 2026-02-01T14:14:10.171731400
+updatedAt: 2026-02-01T14:46:44.268473800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_VZwYCkiPjc
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: See Review details
+sortPriority: -1769774159636.0
+url: http://localhost:8000/api/v1/reviews/1
+urlParameters: []

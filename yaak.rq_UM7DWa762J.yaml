@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_UM7DWa762J
+createdAt: 2026-02-02T14:52:15.112287100
+updatedAt: 2026-02-02T14:52:38.367471
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_2MkpSSnkds
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: zgvHA4rwQR
+- enabled: true
+  name: Accept
+  value: application/json
+  id: D0i6EHQg9Q
+- enabled: true
+  name: ''
+  value: ''
+  id: uync5h8pYr
+method: GET
+name: Package Status
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/stats
+urlParameters: []

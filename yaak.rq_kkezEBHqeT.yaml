@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_kkezEBHqeT
+createdAt: 2026-02-02T14:03:30.063172
+updatedAt: 2026-02-02T14:04:52.534123600
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RJVfgH2oDR
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "resolution_notes": "Ad removed due to violation"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: 'Bearer '
+  id: PZA04WcVpR
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: CvWFG66NPB
+- enabled: true
+  name: Accept
+  value: application/json
+  id: D8rzvfdd9C
+- enabled: true
+  name: ''
+  value: ''
+  id: EJ8RITUDQ3
+method: POST
+name: Resolve a Report
+sortPriority: -1769959356783.0
+url: http://localhost:8000/api/v1/reports/1/actions/resolve
+urlParameters: []

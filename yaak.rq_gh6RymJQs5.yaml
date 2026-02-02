@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_gh6RymJQs5
+createdAt: 2026-02-02T17:54:35.825655300
+updatedAt: 2026-02-02T17:55:12.223370100
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_z95ypM9iKb
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: q9ZeRiJ4AU
+- enabled: true
+  name: Accept
+  value: application/json
+  id: sTXfyHQFTv
+- enabled: true
+  name: ''
+  value: ''
+  id: CZKNQSRz82
+method: POST
+name: Mask all as read
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/notifications/read-all
+urlParameters: []

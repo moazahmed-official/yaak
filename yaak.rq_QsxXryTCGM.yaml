@@ -1,0 +1,39 @@
+type: http_request
+model: http_request
+id: rq_QsxXryTCGM
+createdAt: 2026-02-02T14:02:54.606280400
+updatedAt: 2026-02-02T14:14:14.901096700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_RJVfgH2oDR
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "status": "open",
+        "notes": "Investigating the issue"
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: ER9Szz0JXJ
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: eT3rASvTxq
+- enabled: true
+  name: Accept
+  value: application/json
+  id: zvWCBa0TaN
+- enabled: true
+  name: ''
+  value: ''
+  id: wf0QfMczIY
+method: PUT
+name: Update Report Stats
+sortPriority: -1769959356783.0
+url: http://localhost:8000/api/v1/reports/1/status
+urlParameters: []

@@ -1,0 +1,37 @@
+type: http_request
+model: http_request
+id: rq_bxDxY5RdJR
+createdAt: 2026-02-02T16:52:20.386025900
+updatedAt: 2026-02-02T17:30:50.396237500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_rGxQNC5pG2
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title": "System Update",
+        "body": "New features are now available!",
+        "user_ids": [2,3],
+        "channel": "database"
+    }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  id: ffFpXYpYqV
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: IB20AHN5yg
+- enabled: true
+  name: ''
+  value: ''
+  id: D0WagPtaau
+method: POST
+name: Send Notifications
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/notifications/send
+urlParameters: []

@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_UpZEGsrDip
+createdAt: 2026-02-02T16:03:10.683012600
+updatedAt: 2026-02-02T16:03:31.134853400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_WAZ8YhUyan
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 3|E9VaD8EHIYXOU2W8GKyVyY5K5BrBqPXB3yO6ti2Aa827dd70
+  id: nyn5idh0MC
+- enabled: true
+  name: Accept
+  value: application/json
+  id: wWqCYNW8GM
+- enabled: true
+  name: ''
+  value: ''
+  id: m8WvV6GNki
+method: GET
+name: My Package Features
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/packages/my-features
+urlParameters: []
