@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_sQv52Vyps4
+createdAt: 2026-02-07T20:11:31.810709
+updatedAt: 2026-02-07T20:12:55.233444800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_X8LHErB5fn
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|iZegYzGlrVO4lsAyjDF5jdRvfWV3gCNvfLfEbIS0fce0c1aa
+  id: 6fWxZA6FYT
+- enabled: true
+  name: ''
+  value: ''
+  id: PBV56gI6av
+method: GET
+name: List all publica pages
+sortPriority: -1770495091809.0
+url: http://localhost:8000/api/v1/admin/pages
+urlParameters: []

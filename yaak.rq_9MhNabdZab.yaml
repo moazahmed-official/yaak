@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_9MhNabdZab
 createdAt: 2026-01-27T15:46:54.613635300
-updatedAt: 2026-01-27T16:39:25.960905600
+updatedAt: 2026-02-02T19:45:43.301686200
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_7DSumHGD3i
 authentication: {}
@@ -10,7 +10,7 @@ authenticationType: null
 body:
   text: |-
     {
-        "phone":"+1234567890",
+        "email":"moaz@example.com",
         "code":"064720"
       }
 bodyType: application/json

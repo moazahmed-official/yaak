@@ -1,38 +1,38 @@
 type: http_request
 model: http_request
-id: rq_hGMmxrAW7t
-createdAt: 2026-01-27T01:46:27.297656
-updatedAt: 2026-02-02T20:23:11.516064200
+id: rq_XR8isAARYs
+createdAt: 2026-02-02T19:57:58.227744400
+updatedAt: 2026-02-02T19:58:12.606951900
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_iVYqNGJqYy
+folderId: fl_2Hgdq7ojQJ
 authentication: {}
 authenticationType: null
 body:
   text: |-
     {
-    "roles": ["seller"]
-    }
+        "title": "Updated Title"
+      }
 bodyType: application/json
 description: ''
 headers:
 - enabled: true
-  name: Accept
-  value: application/json
-  id: 6HjfHb3a7R
-- enabled: true
   name: Authorization
   value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: zbEAihZVjm
+  id: U2NHUq3GKN
 - enabled: true
   name: Content-Type
   value: application/json
-  id: FJ2PJutkzq
+  id: rr3qcGZiAR
+- enabled: true
+  name: Accept
+  value: application/json
+  id: 57TqmYmiep
 - enabled: true
   name: ''
   value: ''
-  id: sXgx7guj9B
-method: POST
-name: Assign role to the user
-sortPriority: 1000.0
-url: http://localhost:8000/api/v1/users/2/roles
+  id: XTNtrpm6eH
+method: PUT
+name: Update Blog
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/admin/blogs/1
 urlParameters: []

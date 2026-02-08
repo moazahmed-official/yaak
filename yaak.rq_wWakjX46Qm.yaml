@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_wWakjX46Qm
+createdAt: 2026-02-07T20:17:02.586254300
+updatedAt: 2026-02-07T20:18:39.082342300
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_oZviqAWLRG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: Get Single Page
+sortPriority: -1770495091809.0
+url: http://localhost:8000/api/v1/pages/about_us
+urlParameters: []

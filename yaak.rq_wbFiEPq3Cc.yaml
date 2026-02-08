@@ -1,0 +1,38 @@
+type: http_request
+model: http_request
+id: rq_wbFiEPq3Cc
+createdAt: 2026-02-02T20:22:25.528640100
+updatedAt: 2026-02-02T20:50:56.493220200
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_urCu2DeN9c
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 3|v1OmwRimqZBMduHaGrlf6Jmn9VuEnPTQNSsQxOFM2c4be379
+  id: pQikUDJ4JM
+- enabled: true
+  name: Accept
+  value: application/json
+  id: FcmdUA0n2j
+- enabled: true
+  name: ''
+  value: ''
+  id: qQJD3RvHhC
+method: GET
+name: Status and Analytics
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/seller/dashboard
+urlParameters:
+- enabled: true
+  name: date_from
+  value: 2026-01-01
+  id: null
+- enabled: true
+  name: date_to
+  value: 2026-01-31
+  id: null

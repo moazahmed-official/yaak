@@ -1,0 +1,18 @@
+type: http_request
+model: http_request
+id: rq_imw2iwwB3Y
+createdAt: 2026-02-07T20:16:23.755961700
+updatedAt: 2026-02-07T20:16:49.886366400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_oZviqAWLRG
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers: []
+method: GET
+name: List Public Pages
+sortPriority: -1770495091809.0
+url: http://localhost:8000/api/v1/pages
+urlParameters: []

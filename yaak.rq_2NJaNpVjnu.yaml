@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_sDuXyWuTFu
-createdAt: 2026-02-02T15:03:51.066035800
-updatedAt: 2026-02-02T21:20:22.439721300
+id: rq_2NJaNpVjnu
+createdAt: 2026-02-02T19:54:23.711270400
+updatedAt: 2026-02-02T19:56:03.450831
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_2MkpSSnkds
+folderId: fl_2Hgdq7ojQJ
 authentication: {}
 authenticationType: null
 body: {}
@@ -14,17 +14,25 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: z8NkIZiZM3
+  id: fGwFy6G8GW
 - enabled: true
   name: Accept
   value: application/json
-  id: qn9swr7ffg
+  id: r8hMwpCsiv
 - enabled: true
   name: ''
   value: ''
-  id: veNc6SgCvG
-method: DELETE
-name: Delete user Package
+  id: sWQXG9nBkx
+method: GET
+name: List all Blogs
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/user-packages/1
-urlParameters: []
+url: http://localhost:8000/api/v1/admin/blogs
+urlParameters:
+- enabled: false
+  name: status
+  value: draft
+  id: JPEKdzYdtM
+- enabled: true
+  name: ''
+  value: ''
+  id: 0t59RIumk5

@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_L3s3JDH4M2
-createdAt: 2026-02-02T15:00:21.842508800
-updatedAt: 2026-02-02T19:51:18.718101600
+id: rq_gtG3XoCqhc
+createdAt: 2026-02-02T20:06:06.781602600
+updatedAt: 2026-02-02T20:06:30.082237500
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_WAZ8YhUyan
+folderId: fl_cYAXRw9dZu
 authentication: {}
 authenticationType: null
 body: {}
@@ -13,18 +13,18 @@ description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 2|gCu1Sa90l9SduH9F2wjHsEDiYiXNNzVxy3JlLAmDeaf1cacb
-  id: qkrejQ5nK6
+  value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
+  id: PDfBcT5Sfb
 - enabled: true
   name: Accept
   value: application/json
-  id: eAjPmzCkv9
+  id: u2j4c938Ka
 - enabled: true
   name: ''
   value: ''
-  id: Ng78hstvZ2
+  id: yhtJVM5CYB
 method: GET
-name: See my Package
+name: Get a Category details
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/packages/my-packages
+url: http://localhost:8000/api/v1/admin/categories/1
 urlParameters: []

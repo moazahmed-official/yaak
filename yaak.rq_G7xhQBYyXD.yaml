@@ -1,0 +1,30 @@
+type: http_request
+model: http_request
+id: rq_G7xhQBYyXD
+createdAt: 2026-02-02T18:15:21.066464800
+updatedAt: 2026-02-02T18:17:54.694230700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_heno7zw7dM
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: VgXk0um7FT
+- enabled: true
+  name: Accept
+  value: application/json
+  id: ZcP7SGRsCm
+- enabled: true
+  name: ''
+  value: ''
+  id: WKxXMVfyVB
+method: GET
+name: List Saved Searches
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/saved-searches
+urlParameters: []

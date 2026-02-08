@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_sDuXyWuTFu
-createdAt: 2026-02-02T15:03:51.066035800
-updatedAt: 2026-02-02T21:20:22.439721300
+id: rq_wg64hcHtVh
+createdAt: 2026-02-02T20:00:25.087517600
+updatedAt: 2026-02-02T20:02:25.541944800
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_2MkpSSnkds
+folderId: fl_v9HAr4pBEq
 authentication: {}
 authenticationType: null
 body: {}
@@ -14,17 +14,21 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: z8NkIZiZM3
+  id: 50ndgcrBci
 - enabled: true
   name: Accept
   value: application/json
-  id: qn9swr7ffg
+  id: IEqCQutYbK
 - enabled: true
   name: ''
   value: ''
-  id: veNc6SgCvG
-method: DELETE
-name: Delete user Package
+  id: KAGb5FsRzT
+method: GET
+name: List Specifications
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/user-packages/1
-urlParameters: []
+url: http://localhost:8000/api/v1/admin/specifications
+urlParameters:
+- enabled: true
+  name: type
+  value: select
+  id: null

@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_z8riz7k44v
 createdAt: 2026-02-02T16:04:13.755810300
-updatedAt: 2026-02-02T16:04:26.986671200
+updatedAt: 2026-02-02T21:12:26.123268700
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_2MkpSSnkds
 authentication: {}
@@ -32,7 +32,7 @@ headers:
   value: ''
   id: ZXEmfHE6rj
 method: POST
-name: ''
+name: Check user capabilities
 sortPriority: -1770043832531.0
 url: http://localhost:8000/api/v1/packages/check-capability
 urlParameters: []

@@ -1,0 +1,26 @@
+type: http_request
+model: http_request
+id: rq_BPjZG6XPTu
+createdAt: 2026-02-07T20:13:46.737215800
+updatedAt: 2026-02-07T20:14:44.403897800
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_X8LHErB5fn
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|iZegYzGlrVO4lsAyjDF5jdRvfWV3gCNvfLfEbIS0fce0c1aa
+  id: bmWDYz8Crt
+- enabled: true
+  name: ''
+  value: ''
+  id: 9EBgVVnCTq
+method: GET
+name: Get Single Page data
+sortPriority: -1770495091809.0
+url: http://localhost:8000/api/v1/admin/pages/about_us
+urlParameters: []

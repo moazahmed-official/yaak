@@ -1,19 +1,19 @@
 type: http_request
 model: http_request
-id: rq_2ao3tc8U3s
-createdAt: 2026-02-02T14:59:19.086408400
-updatedAt: 2026-02-02T21:20:41.387033500
+id: rq_kUiVQyjaDn
+createdAt: 2026-02-02T20:07:00.057754500
+updatedAt: 2026-02-02T20:07:24.347096600
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_2MkpSSnkds
+folderId: fl_cYAXRw9dZu
 authentication: {}
 authenticationType: null
 body:
   text: |-
     {
-        "user_id": 2,
-        "starts_at": "2026-02-01",
-        "payment_method": "credit_card",
-        "payment_reference": "TXN123456"
+        "name_en": "Sedans",
+        "name_ar": "سيدان",
+        "parent_id": null,
+        "status": "active"
       }
 bodyType: application/json
 description: ''
@@ -21,21 +21,21 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: MWBdfsjbQN
+  id: R3Bs8AvEMm
 - enabled: true
   name: Content-Type
   value: application/json
-  id: dr4QZTc7QG
+  id: iQGYxeWhT9
 - enabled: true
   name: Accept
   value: application/json
-  id: tb5Vzu8034
+  id: Qh8CXBGXbx
 - enabled: true
   name: ''
   value: ''
-  id: XaDj0GB507
+  id: kPbfbivZBC
 method: POST
-name: Assign Package to user
+name: Create a Category
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/packages/1/assign
+url: http://localhost:8000/api/v1/admin/categories
 urlParameters: []

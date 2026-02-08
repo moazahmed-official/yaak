@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_L3s3JDH4M2
-createdAt: 2026-02-02T15:00:21.842508800
-updatedAt: 2026-02-02T19:51:18.718101600
+id: rq_2aFnM6wiy5
+createdAt: 2026-02-02T20:01:46.953005400
+updatedAt: 2026-02-02T20:02:15.605128100
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_WAZ8YhUyan
+folderId: fl_v9HAr4pBEq
 authentication: {}
 authenticationType: null
 body: {}
@@ -13,18 +13,18 @@ description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 2|gCu1Sa90l9SduH9F2wjHsEDiYiXNNzVxy3JlLAmDeaf1cacb
-  id: qkrejQ5nK6
+  value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
+  id: GApjCMIGwm
 - enabled: true
   name: Accept
   value: application/json
-  id: eAjPmzCkv9
+  id: EIT6uiQ3RB
 - enabled: true
   name: ''
   value: ''
-  id: Ng78hstvZ2
+  id: qMxjnINDnu
 method: GET
-name: See my Package
+name: See Specification details
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/packages/my-packages
+url: http://localhost:8000/api/v1/admin/specifications/2
 urlParameters: []

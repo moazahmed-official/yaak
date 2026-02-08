@@ -2,19 +2,29 @@ type: http_request
 model: http_request
 id: rq_krz684ahJv
 createdAt: 2026-02-02T14:53:04.986313600
-updatedAt: 2026-02-02T14:57:13.375648700
+updatedAt: 2026-02-02T19:47:33.820783700
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_2MkpSSnkds
 authentication: {}
 authenticationType: null
 body:
-  text: "{\n    \"name\":\"Premuim\",\n    \"name_en\": \"Premium\",\n    \"name_ar\": \"مميز\",\n    \"description\": \"Premuim package with unlimited ads\",\n    \"description_en\": \"Premium package with unlimited ads\",\n    \"price\": 99.99,\n    \"duration_days\": 30,\n    \"max_ads\": 50,\n    \"normal_ads\": 50 , \n    \"featured_ads\": 50,\n    \"features\": {\n      \"normal_ads\": 50,\n      \"featured_ads\": 10\n    },\n    \"status\": \"active\"\n  }"
+  text: |-
+    {
+        "name":"Premuim",
+        "name_en": "Premium",
+        "name_ar": "مميز",
+        "description": "Premuim package with unlimited ads",
+        "description_en": "Premium package with unlimited ads",
+        "price": 99.99,
+        "duration_days": 60,
+        "status": "active"
+      }
 bodyType: application/json
 description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
   id: x25YpfgwN7
 - enabled: true
   name: Content-Type
@@ -27,7 +37,7 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: 9nYgI4579i
+  id: ekABSWTThR
 method: POST
 name: Create Package
 sortPriority: -1770043832531.0

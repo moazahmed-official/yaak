@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_UpZEGsrDip
 createdAt: 2026-02-02T16:03:10.683012600
-updatedAt: 2026-02-02T16:03:31.134853400
+updatedAt: 2026-02-02T19:50:59.084933900
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_WAZ8YhUyan
 authentication: {}
@@ -13,7 +13,7 @@ description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 3|E9VaD8EHIYXOU2W8GKyVyY5K5BrBqPXB3yO6ti2Aa827dd70
+  value: Bearer 2|gCu1Sa90l9SduH9F2wjHsEDiYiXNNzVxy3JlLAmDeaf1cacb
   id: nyn5idh0MC
 - enabled: true
   name: Accept
@@ -22,7 +22,7 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: m8WvV6GNki
+  id: IPVH2Wnp7I
 method: GET
 name: My Package Features
 sortPriority: -1770043832531.0

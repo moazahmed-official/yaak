@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_KPE4pJECak
 createdAt: 2026-02-02T16:00:44.499007200
-updatedAt: 2026-02-02T16:52:57.613088800
+updatedAt: 2026-02-02T19:49:39.873477500
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_2MkpSSnkds
 authentication: {}
@@ -11,27 +11,27 @@ body:
   text: |-
     {
         "normal_ads_allowed": true,
-        "normal_ads_limit": 20,
+        "normal_ads_limit": 2,
         "unique_ads_allowed": true,
-        "unique_ads_limit": 5,
+        "unique_ads_limit": 2,
         "caishha_ads_allowed": true,
-        "caishha_ads_limit": 10,
+        "caishha_ads_limit": 2,
         "findit_ads_allowed": true,
-        "findit_ads_limit": 3,
-        "auction_ads_allowed": false,
-        "auction_ads_limit": 0,
+        "findit_ads_limit": 2,
+        "auction_ads_allowed": true,
+        "auction_ads_limit": 2,
         "grants_seller_status": true,
-        "auto_verify_seller": false,
+        "auto_verify_seller": true,
         "grants_marketer_status": false,
-        "grants_verified_badge": false,
+        "grants_verified_badge": true,
         "can_push_to_facebook": true,
         "can_auto_republish": true,
         "can_use_banner": true,
-        "can_use_background_color": false,
-        "can_bulk_upload": false,
-        "images_per_ad_limit": 15,
+        "can_use_background_color": true,
+        "can_bulk_upload": true,
+        "images_per_ad_limit": 2,
         "videos_per_ad_limit": 2,
-        "ad_duration_days": 45,
+        "ad_duration_days": 60,
         "max_ad_duration_days": 90,
         "can_extend_ads": true,
         "priority_support": false,
@@ -42,7 +42,7 @@ description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
   id: b0VUaUYZaw
 - enabled: true
   name: Content-Type
@@ -55,9 +55,9 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: 3BQiQS6rjS
+  id: E6dZc89NWy
 method: POST
 name: Assign Package Features
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/packages/4/features
+url: http://localhost:8000/api/v1/packages/2/features
 urlParameters: []

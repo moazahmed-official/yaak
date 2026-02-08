@@ -1,19 +1,20 @@
 type: http_request
 model: http_request
-id: rq_2ao3tc8U3s
-createdAt: 2026-02-02T14:59:19.086408400
-updatedAt: 2026-02-02T21:20:41.387033500
+id: rq_UcywwVFv83
+createdAt: 2026-02-02T20:02:47.990751500
+updatedAt: 2026-02-02T20:03:28.113397200
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_2MkpSSnkds
+folderId: fl_v9HAr4pBEq
 authentication: {}
 authenticationType: null
 body:
   text: |-
     {
-        "user_id": 2,
-        "starts_at": "2026-02-01",
-        "payment_method": "credit_card",
-        "payment_reference": "TXN123456"
+        "name_en": "Fuel Type",
+        "name_ar": "نوع الوقود",
+        "type": "select",
+        "values": ["Petrol", "Diesel", "Electric", "Hybrid"],
+        "is_required": true
       }
 bodyType: application/json
 description: ''
@@ -21,21 +22,21 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: MWBdfsjbQN
+  id: bkXiYMIjMg
 - enabled: true
   name: Content-Type
   value: application/json
-  id: dr4QZTc7QG
+  id: ZheQ5PId0i
 - enabled: true
   name: Accept
   value: application/json
-  id: tb5Vzu8034
+  id: 8i4qzfzU5t
 - enabled: true
   name: ''
   value: ''
-  id: XaDj0GB507
+  id: KdaTg26Xya
 method: POST
-name: Assign Package to user
+name: Create a Specification
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/packages/1/assign
+url: http://localhost:8000/api/v1/admin/specifications
 urlParameters: []

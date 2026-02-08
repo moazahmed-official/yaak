@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_sDuXyWuTFu
-createdAt: 2026-02-02T15:03:51.066035800
-updatedAt: 2026-02-02T21:20:22.439721300
+id: rq_K3jJ2Lw6kJ
+createdAt: 2026-02-02T20:05:40.172315300
+updatedAt: 2026-02-02T20:06:03.058935700
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_2MkpSSnkds
+folderId: fl_cYAXRw9dZu
 authentication: {}
 authenticationType: null
 body: {}
@@ -14,17 +14,21 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: z8NkIZiZM3
+  id: 6EEk4NYJI0
 - enabled: true
   name: Accept
   value: application/json
-  id: qn9swr7ffg
+  id: mnGKApdFMk
 - enabled: true
   name: ''
   value: ''
-  id: veNc6SgCvG
-method: DELETE
-name: Delete user Package
+  id: ZdXP0zMCpB
+method: GET
+name: List all categories
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/user-packages/1
-urlParameters: []
+url: http://localhost:8000/api/v1/admin/categories
+urlParameters:
+- enabled: true
+  name: status
+  value: active
+  id: null

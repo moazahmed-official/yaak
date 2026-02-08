@@ -1,0 +1,22 @@
+type: http_request
+model: http_request
+id: rq_qBTDi4Rxuu
+createdAt: 2026-02-02T19:52:15.042217200
+updatedAt: 2026-02-02T19:52:39.416508400
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_ecdFVBnQZ2
+authentication: {}
+authenticationType: null
+body: {}
+bodyType: null
+description: ''
+headers:
+- enabled: true
+  name: Accept
+  value: application/json
+  id: null
+method: GET
+name: Get Blog details
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/blogs/1
+urlParameters: []

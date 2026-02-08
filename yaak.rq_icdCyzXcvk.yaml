@@ -1,0 +1,42 @@
+type: http_request
+model: http_request
+id: rq_icdCyzXcvk
+createdAt: 2026-02-02T18:21:53.089845400
+updatedAt: 2026-02-02T18:22:28.105330500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_heno7zw7dM
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "name": "Toyota under 25k",
+        "query_params": {
+          "brand_id": 1,
+          "max_price": 25000
+        }
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: uGdEHuaHAt
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: M9zuxDeBBr
+- enabled: true
+  name: Accept
+  value: application/json
+  id: zBFjV8heGx
+- enabled: true
+  name: ''
+  value: ''
+  id: nqJsDnMdhI
+method: PUT
+name: Update Save Search
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/saved-searches/2
+urlParameters: []

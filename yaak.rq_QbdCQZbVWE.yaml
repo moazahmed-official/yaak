@@ -1,19 +1,21 @@
 type: http_request
 model: http_request
-id: rq_2ao3tc8U3s
-createdAt: 2026-02-02T14:59:19.086408400
-updatedAt: 2026-02-02T21:20:41.387033500
+id: rq_QbdCQZbVWE
+createdAt: 2026-02-02T19:55:18.825252700
+updatedAt: 2026-02-02T19:56:39.431176700
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_2MkpSSnkds
+folderId: fl_2Hgdq7ojQJ
 authentication: {}
 authenticationType: null
 body:
   text: |-
     {
-        "user_id": 2,
-        "starts_at": "2026-02-01",
-        "payment_method": "credit_card",
-        "payment_reference": "TXN123456"
+        "title": "10 Tips for Buying a Used Car",
+        "slug": "10-tips-buying-used-car",
+        "body": "Full article content here...",
+        "excerpt": "Learn the essential tips...",
+        "status": "published",
+        "featured_image_id": 1
       }
 bodyType: application/json
 description: ''
@@ -21,21 +23,21 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: MWBdfsjbQN
+  id: EGAmzcCihh
 - enabled: true
   name: Content-Type
   value: application/json
-  id: dr4QZTc7QG
+  id: iFPjPExyke
 - enabled: true
   name: Accept
   value: application/json
-  id: tb5Vzu8034
+  id: MYQdNbimDH
 - enabled: true
   name: ''
   value: ''
-  id: XaDj0GB507
+  id: wjqYAEIEbk
 method: POST
-name: Assign Package to user
+name: Create a new Blog
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/packages/1/assign
+url: http://localhost:8000/api/v1/admin/blogs
 urlParameters: []

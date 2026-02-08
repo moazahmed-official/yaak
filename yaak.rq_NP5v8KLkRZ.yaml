@@ -1,0 +1,44 @@
+type: http_request
+model: http_request
+id: rq_NP5v8KLkRZ
+createdAt: 2026-02-02T18:17:58.990617600
+updatedAt: 2026-02-02T18:18:14.788414700
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_heno7zw7dM
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "name": "Toyota under 20k",
+        "query_params": {
+          "brand_id": 1,
+          "max_price": 20000,
+          "min_year": 2020
+        },
+        "notify_on_match": true
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer 4|92PIavzymsQdSJB7G6pexd8am68fD1zJ4TscLTrFdc0055b4
+  id: 9hxWk45pAq
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: IbDUJp8e3M
+- enabled: true
+  name: Accept
+  value: application/json
+  id: jSErPEF6Hq
+- enabled: true
+  name: ''
+  value: ''
+  id: pNann5xuwH
+method: POST
+name: Create Saved Search
+sortPriority: -1770055192571.0
+url: http://localhost:8000/api/v1/saved-searches
+urlParameters: []
