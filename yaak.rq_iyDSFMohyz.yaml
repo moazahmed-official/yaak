@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_iyDSFMohyz
 createdAt: 2026-01-29T02:55:31.320087900
-updatedAt: 2026-01-30T14:16:03.808497
+updatedAt: 2026-02-12T15:18:35.618768300
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_DhuhUXFomq
 authentication: {}
@@ -16,11 +16,10 @@ body:
     "city_id":1,
     "country_id":1,
     "brand_id":1,
-    "model_id":4,
+    "model_id":1,
     "year":2016,
     "offers_window_period":86400,
-    "sellers_visibility_period":86400,
-    "media_ids":[1,2]
+    "sellers_visibility_period":86400
     }
 bodyType: application/json
 description: ''
@@ -35,7 +34,7 @@ headers:
   id: GyYCAKxx33
 - enabled: true
   name: Authorization
-  value: Bearer 30|MUGp9HWJ6Yr3RZJQaqfkTp9ot272wClx7OGnA1R288670c3f
+  value: Bearer 46|Jb3rHXjnQ1SvwRMnMOQGkUnf3otl3rjj7GOYgkMd00e1f417
   id: W73W9pYuWd
 - enabled: true
   name: Content-Type
@@ -44,7 +43,7 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: eA5Mf030yF
+  id: P7nJ3XVctX
 method: POST
 name: Create Caishha Ad
 sortPriority: -1769553642986.999

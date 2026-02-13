@@ -1,10 +1,10 @@
 type: http_request
 model: http_request
-id: rq_oAPdcjSUCL
-createdAt: 2026-02-02T19:56:56.524399200
-updatedAt: 2026-02-13T01:15:44.451339200
+id: rq_xhVj5Br4yw
+createdAt: 2026-02-12T14:34:45.298567700
+updatedAt: 2026-02-13T14:00:28.860212300
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_2Hgdq7ojQJ
+folderId: fl_udqiNhY2PC
 authentication: {}
 authenticationType: null
 body: {}
@@ -14,17 +14,13 @@ headers:
 - enabled: true
   name: Authorization
   value: Bearer 38|mtNMW3KWjPlCU64mgoifowCHUA2Dr5EUpss518JWe4f1e66e
-  id: 9W6zwmDV2Q
-- enabled: true
-  name: Accept
-  value: application/json
-  id: nEvTJeWs04
+  id: 74YfQ3by74
 - enabled: true
   name: ''
   value: ''
-  id: Iysm5h0y6H
+  id: Yr9naNfU4X
 method: GET
-name: Get Blog details
-sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/admin/blogs/3
+name: ''
+sortPriority: -1769553642987.0
+url: http://localhost:8000/api/v1/admin/stats/ads-by-category-chart
 urlParameters: []

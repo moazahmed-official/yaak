@@ -1,14 +1,14 @@
 type: http_request
 model: http_request
-id: rq_dtYEZXSRin
-createdAt: 2026-01-26T23:40:02.060208
-updatedAt: 2026-02-13T12:04:11.624586200
+id: rq_U2L8DFPcuT
+createdAt: 2026-02-10T12:19:33.915880
+updatedAt: 2026-02-13T00:32:43.693599100
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_7DSumHGD3i
 authentication: {}
 authenticationType: null
 body:
-  text: '{"email":"tesst@example.com","password":"password"}'
+  text: '{"email":"admin@example.com","password":"password"}'
 bodyType: application/json
 description: ''
 headers:
@@ -16,12 +16,8 @@ headers:
   name: Content-Type
   value: application/json
   id: null
-- enabled: true
-  name: Accept
-  value: application/json
-  id: null
 method: POST
-name: Login with email
-sortPriority: 4000.0
+name: Login with email Copy
+sortPriority: 4000.001
 url: http://localhost:8000/api/v1/auth/login
 urlParameters: []

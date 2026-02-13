@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_3uLkq6y3BH
 createdAt: 2026-02-01T15:12:08.985628400
-updatedAt: 2026-02-02T15:01:17.873638700
+updatedAt: 2026-02-12T12:55:21.252190
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_8MAV6sVN3K
 authentication: {}
@@ -29,12 +29,12 @@ headers:
   id: rrGRGst8J8
 - enabled: true
   name: Authorization
-  value: Bearer 8|KwETzupmzZa8nnl4LmnBiwfoZe62sFS9jRcGOU8ve14de0a2
+  value: Bearer 45|5P9rMdCDRBpYaAx5pEOJW8LFn6p4u9SrGGNP3N6d306d9e41
   id: ZwdTiPu6Qg
 - enabled: true
   name: ''
   value: ''
-  id: pM3gRX6xUi
+  id: MCWvGEkZUf
 method: POST
 name: Create a Report for Ad
 sortPriority: -1769774159636.0

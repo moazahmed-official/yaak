@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_QbdCQZbVWE
 createdAt: 2026-02-02T19:55:18.825252700
-updatedAt: 2026-02-02T19:56:39.431176700
+updatedAt: 2026-02-12T22:38:53.965626200
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_2Hgdq7ojQJ
 authentication: {}
@@ -10,32 +10,27 @@ authenticationType: null
 body:
   text: |-
     {
-        "title": "10 Tips for Buying a Used Car",
-        "slug": "10-tips-buying-used-car",
-        "body": "Full article content here...",
-        "excerpt": "Learn the essential tips...",
-        "status": "published",
-        "featured_image_id": 1
+        "title": "My New Blog Post",
+        "category_id": 2,
+        "image_id": 5,
+        "body": "<h1>Header</h1><p><strong>Bold</strong> paragraph.</p><blockquote>Quote text</blockquote><img src=\"https://cdn.example.com/1.jpg\"/>",
+        "status": "draft"
       }
 bodyType: application/json
 description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: EGAmzcCihh
+  value: Bearer 38|mtNMW3KWjPlCU64mgoifowCHUA2Dr5EUpss518JWe4f1e66e
+  id: 87JX8wBIHm
 - enabled: true
   name: Content-Type
   value: application/json
-  id: iFPjPExyke
-- enabled: true
-  name: Accept
-  value: application/json
-  id: MYQdNbimDH
+  id: Z6mW7VGI0b
 - enabled: true
   name: ''
   value: ''
-  id: wjqYAEIEbk
+  id: afSKmGHTKE
 method: POST
 name: Create a new Blog
 sortPriority: -1770043832531.0

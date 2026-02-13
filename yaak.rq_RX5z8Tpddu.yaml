@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_RX5z8Tpddu
 createdAt: 2026-01-27T22:46:22.292243400
-updatedAt: 2026-01-27T22:46:22.292243700
+updatedAt: 2026-02-12T21:26:06.714959500
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_ZbXRqekhU8
 authentication: {}
@@ -10,7 +10,7 @@ authenticationType: null
 body:
   form:
   - enabled: true
-    file: C:\Users\moaza\Downloads\WhatsApp Image 2026-01-13 at 4.12.37 PM (2) (2).jpeg
+    file: C:\Users\moaza\Downloads\bg4.jpg
     id: c3c2HmqF0j
     name: file
   - enabled: true
@@ -26,7 +26,7 @@ body:
     name: related_id
     value: '123'
   - enabled: true
-    id: GnybG0R2md
+    id: HxVhxdActf
     name: ''
     value: ''
 bodyType: multipart/form-data
@@ -34,7 +34,7 @@ description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  value: Bearer 38|mtNMW3KWjPlCU64mgoifowCHUA2Dr5EUpss518JWe4f1e66e
   id: t5SvwyRs73
 - enabled: true
   name: Content-Type
@@ -43,7 +43,7 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: gxZMTXUmB0
+  id: e90dRuu9mm
 method: POST
 name: Upload Image
 sortPriority: -1769553642987.0

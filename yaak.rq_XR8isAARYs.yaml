@@ -2,37 +2,49 @@ type: http_request
 model: http_request
 id: rq_XR8isAARYs
 createdAt: 2026-02-02T19:57:58.227744400
-updatedAt: 2026-02-02T19:58:12.606951900
+updatedAt: 2026-02-12T22:37:45.251500800
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_2Hgdq7ojQJ
 authentication: {}
 authenticationType: null
-body:
-  text: |-
-    {
-        "title": "Updated Title"
-      }
-bodyType: application/json
+body: {}
+bodyType: null
 description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
-  id: U2NHUq3GKN
-- enabled: true
-  name: Content-Type
-  value: application/json
-  id: rr3qcGZiAR
-- enabled: true
-  name: Accept
-  value: application/json
-  id: 57TqmYmiep
+  value: Bearer 38|mtNMW3KWjPlCU64mgoifowCHUA2Dr5EUpss518JWe4f1e66e
+  id: e0FAbmSEib
 - enabled: true
   name: ''
   value: ''
-  id: XTNtrpm6eH
-method: PUT
+  id: u8q4TPhCxZ
+method: GET
 name: Update Blog
 sortPriority: -1770043832531.0
-url: http://localhost:8000/api/v1/admin/blogs/1
-urlParameters: []
+url: http://localhost:8000/api/v1/admin/blogs
+urlParameters:
+- enabled: true
+  name: per_page
+  value: '10'
+  id: null
+- enabled: true
+  name: page
+  value: '1'
+  id: null
+- enabled: true
+  name: search
+  value: electrics
+  id: null
+- enabled: true
+  name: status
+  value: published
+  id: null
+- enabled: true
+  name: sort_by
+  value: created_at
+  id: null
+- enabled: true
+  name: sort_order
+  value: desc
+  id: null

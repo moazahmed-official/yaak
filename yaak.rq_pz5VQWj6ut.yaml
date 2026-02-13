@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_pz5VQWj6ut
 createdAt: 2026-02-01T15:22:36.785498300
-updatedAt: 2026-02-02T14:52:24.470784700
+updatedAt: 2026-02-12T12:54:30.378270600
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_RJVfgH2oDR
 authentication: {}
@@ -21,12 +21,12 @@ headers:
   id: X4uWkggK8f
 - enabled: true
   name: Authorization
-  value: Bearer 2|cTEH4mmuv8O6GWqMOMROPX5nYjeyOUzzRlKrYaMt0f130de9
+  value: Bearer 38|mtNMW3KWjPlCU64mgoifowCHUA2Dr5EUpss518JWe4f1e66e
   id: JkKS2aFJha
 - enabled: true
   name: ''
   value: ''
-  id: qa2PEi0ijb
+  id: ufHQTpBAJ4
 method: GET
 name: List all Reports
 sortPriority: -1769959356783.0

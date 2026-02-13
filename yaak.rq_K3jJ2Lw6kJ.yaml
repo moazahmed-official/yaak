@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_K3jJ2Lw6kJ
 createdAt: 2026-02-02T20:05:40.172315300
-updatedAt: 2026-02-02T20:06:03.058935700
+updatedAt: 2026-02-12T14:26:58.426693100
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_cYAXRw9dZu
 authentication: {}
@@ -13,7 +13,7 @@ description: ''
 headers:
 - enabled: true
   name: Authorization
-  value: Bearer 1|9AZ9Y2c5MEuXvoQVxEYgAFZKDLjdymO1of1tMTFCf06645d9
+  value: Bearer 38|mtNMW3KWjPlCU64mgoifowCHUA2Dr5EUpss518JWe4f1e66e
   id: 6EEk4NYJI0
 - enabled: true
   name: Accept
@@ -22,7 +22,7 @@ headers:
 - enabled: true
   name: ''
   value: ''
-  id: ZdXP0zMCpB
+  id: 77THuDfsHD
 method: GET
 name: List all categories
 sortPriority: -1770043832531.0

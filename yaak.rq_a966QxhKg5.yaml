@@ -2,24 +2,13 @@ type: http_request
 model: http_request
 id: rq_a966QxhKg5
 createdAt: 2026-01-28T00:03:07.765202400
-updatedAt: 2026-01-31T19:08:47.128867400
+updatedAt: 2026-02-12T14:34:05.169452300
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_i8Grrmz6qa
 authentication: {}
 authenticationType: null
 body:
-  text: |-
-    {
-        "title": "Created Honda Civic for Sale",
-        "description": "Excellent condition Honda Civic with low mileage. Full service history available.",
-        "category_id": 1,
-        "city_id": 2,
-        "country_id": 1,
-        "brand_id": 1,
-        "model_id": 1,
-        "year": 2021,
-        "price_cash": 25000
-      }
+  text: "{\n    \"title\": \"Created Honda Civic for Sale\",\n    \"description\": \"Excellent condition Honda Civic with low mileage. Full service history available.\",\n    \"category_id\": 1,\n    \"city_id\": 2,\n    \"country_id\": 1,\n    \"brand_id\": 1,\n    \"model_id\": 1,\n    \"year\": 2021,\n    \"price_cash\": \n  }"
 bodyType: application/json
 description: ''
 headers:

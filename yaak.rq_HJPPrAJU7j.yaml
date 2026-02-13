@@ -1,17 +1,17 @@
 type: http_request
 model: http_request
-id: rq_9MhNabdZab
-createdAt: 2026-01-27T15:46:54.613635300
-updatedAt: 2026-02-13T12:04:01.790239400
+id: rq_HJPPrAJU7j
+createdAt: 2026-02-11T19:51:45.415531700
+updatedAt: 2026-02-11T19:51:58.064563400
 workspaceId: wk_RRa5Yod5Uo
-folderId: fl_7DSumHGD3i
+folderId: fl_udqiNhY2PC
 authentication: {}
 authenticationType: null
 body:
   text: |-
     {
-        "email":"tesst@example.com",
-        "code":"009504"
+        "email": "seller@example.com",
+        "password": "password"
       }
 bodyType: application/json
 description: ''
@@ -24,8 +24,8 @@ headers:
   name: Content-Type
   value: application/json
   id: null
-method: PUT
-name: Verify User Account OTP
-sortPriority: 1000.0
-url: http://localhost:8000/api/v1/auth/verify
+method: POST
+name: ''
+sortPriority: 4000.0
+url: http://localhost:8000/api/v1/auth/login
 urlParameters: []

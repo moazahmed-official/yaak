@@ -1,0 +1,43 @@
+type: http_request
+model: http_request
+id: rq_Rj2U3eh84v
+createdAt: 2026-02-12T22:56:53.714629400
+updatedAt: 2026-02-12T22:56:55.292893500
+workspaceId: wk_RRa5Yod5Uo
+folderId: fl_udqiNhY2PC
+authentication: {}
+authenticationType: null
+body:
+  text: |-
+    {
+        "title":"2020 Toyota Camry Hybrid",
+        "description":"Excellent hybrid sedan with full service history and low mileage",
+        "category_id":1,
+        "brand_id":1,
+        "model_id":1,
+        "country_id":1,
+        "city_id":1,
+        "year":2020,
+        "price_cash":"85000",
+        "media_ids": [],
+        "specifications":[
+          {"specification_id":4,"value":"Hybrid","image_id":null},
+          {"specification_id":5,"value":"Petrol","image_id":null}
+        ]
+      }
+bodyType: application/json
+description: ''
+headers:
+- enabled: true
+  name: Authorization
+  value: Bearer YOUR_TOKEN
+  id: null
+- enabled: true
+  name: Content-Type
+  value: application/json
+  id: null
+method: POST
+name: ''
+sortPriority: -1770043832531.0
+url: http://localhost:8000/api/v1/normal-ads
+urlParameters: []

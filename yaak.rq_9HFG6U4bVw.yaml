@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_9HFG6U4bVw
 createdAt: 2026-01-27T23:56:21.226992700
-updatedAt: 2026-01-28T00:42:42.512377500
+updatedAt: 2026-02-12T12:45:41.765550600
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_i8Grrmz6qa
 authentication: {}
@@ -28,7 +28,7 @@ urlParameters:
   name: city_id
   value: '2'
   id: 3zMdk0Dcwy
-- enabled: true
+- enabled: false
   name: user_id
   value: '1'
   id: f54mtAhWDw
@@ -39,4 +39,4 @@ urlParameters:
 - enabled: true
   name: ''
   value: ''
-  id: 9bZfHzq2Qs
+  id: x2t6NhMyhy

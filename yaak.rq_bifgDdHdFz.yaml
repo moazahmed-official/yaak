@@ -2,7 +2,7 @@ type: http_request
 model: http_request
 id: rq_bifgDdHdFz
 createdAt: 2026-01-28T01:05:59.112354500
-updatedAt: 2026-01-28T17:00:59.038536500
+updatedAt: 2026-02-13T02:38:31.736245900
 workspaceId: wk_RRa5Yod5Uo
 folderId: fl_qP6gqeC439
 authentication: {}
@@ -17,14 +17,22 @@ headers:
   id: CccCGxPsQA
 - enabled: true
   name: Authorization
-  value: Bearer 19|UktJ3BTodDg8GHXQl5nyome45VgWI2L8EoB2tatk3934c29a
+  value: Bearer 38|mtNMW3KWjPlCU64mgoifowCHUA2Dr5EUpss518JWe4f1e66e
   id: q9IputfJgZ
 - enabled: true
   name: ''
   value: ''
-  id: DKEwQ0ZFAc
+  id: FpriHsxTDI
 method: GET
 name: List All Ads
 sortPriority: 4000.0
 url: http://localhost:8000/api/v1/normal-ads/admin
-urlParameters: []
+urlParameters:
+- enabled: false
+  name: 'category_id '
+  value: '40'
+  id: SD3mDZXgic
+- enabled: true
+  name: ''
+  value: ''
+  id: mxbbmu6PuY
